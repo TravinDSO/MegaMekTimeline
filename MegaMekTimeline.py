@@ -3,7 +3,7 @@ from lxml import etree
 from datetime import datetime
 import re
 
-
+# Class to handle the creation of MegaMek timeline XML files
 class MegaMekTimeline:
     def __init__(self):
         pass
@@ -88,22 +88,21 @@ class MegaMekTimeline:
 
         # Append the following comment to the XML content
         xml_comments = f'<?xml version="1.0" encoding="UTF-8"?>\n<!--\n{file_name}.xml\n2/9/2024\nMaurice Nelson (Travin)\nUpdated\n{current_date}\nThis file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.\
-    Here is a description of what goes in each newsItem tag.\n\
-    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.\n\
-    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.\n\
-    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.\n\
-    service - an optional tag for the news service doing the reporting\n\
-    location - an optional tag for the location of the news report\n\
-    -->\n\n'
+Here is a description of what goes in each newsItem tag.\n\
+headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.\n\
+date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.\n\
+desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.\n\
+service - an optional tag for the news service doing the reporting\n\
+location - an optional tag for the location of the news report\n\
+-->\n\n'
 
         xml_str = xml_comments + etree.tostring(root, pretty_print=True, xml_declaration=False, encoding='UTF-8').decode()
-
-        #print(xml_str)
 
         # Output the XML content to a file
         with open(f'./megamek_timelines/{file_name}.xml', 'w') as file:
             file.write(xml_str)
 
+    # Function to parse a date string into a datetime object
     def parse_date(self,date_str):
         # Try parsing the date in full yyyy-MM-dd format
         try:
@@ -119,6 +118,7 @@ class MegaMekTimeline:
                 except ValueError:
                     return datetime(1, 1, 1)  # Return a default very old date
 
+    # Function to combine multiple timeline XML files into a single XML file
     def combine_timelines(self, file_paths):
         # Create the root element for the combined XML document
         master_root = etree.Element('news')
@@ -144,10 +144,6 @@ class MegaMekTimeline:
                     new_desc = etree.Element("desc")
                     new_desc.text = etree.CDATA(desc_element.text)
                     child.replace(desc_element, new_desc)
-                
-                #look for 2300 date
-                if re.search(r'2300', date_text):
-                    print(f'Found 2300 date in {file_path} at {date_text}')
 
         # Sort news items by their parsed date
         news_items.sort(key=lambda x: x[0])
@@ -159,19 +155,20 @@ class MegaMekTimeline:
         
         # Append the following comment to the XML content
         xml_comments = f'<?xml version="1.0" encoding="UTF-8"?>\n<!--\nnews.xml\n2/9/2024\nMaurice Nelson (Travin)\nUpdated\n{current_date}\nThis file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.\
-    Here is a description of what goes in each newsItem tag.\n\
-    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.\n\
-    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.\n\
-    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.\n\
-    service - an optional tag for the news service doing the reporting\n\
-    location - an optional tag for the location of the news report\n\
-    -->\n\n'
+Here is a description of what goes in each newsItem tag.\n\
+headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.\n\
+date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.\n\
+desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.\n\
+service - an optional tag for the news service doing the reporting\n\
+location - an optional tag for the location of the news report\n\
+-->\n\n'
 
         # Convert the master_root Element back to a string, prepend the declaration and comments, and ensure pretty printing
         master_xml_str = xml_comments + etree.tostring(master_root, pretty_print=True, xml_declaration=False, encoding='UTF-8').decode()
 
         return master_xml_str
 
+    # Function to run the MegaMekTimeline class
     def run(self,sarna_dir='./sarna_timelines', megamek_dir='./megamek_timelines'):
         # For each file in ./sarna_timelines run the function create_news_item_file
         for file in os.listdir('./sarna_timelines'):
