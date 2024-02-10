@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+cameron_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Oleg Tikonov assassinated, Second Soviet Civil War begins</headline>
+    <date>2011</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Soviet Civil War ends, Western Alliance formed</headline>
+    <date>2014</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First full-scale fusion reactor completed</headline>
+    <date>2020</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Asian Co-Prosperity Sphere formed</headline>
+    <date>2022</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Osaka Agreement announced</headline>
+    <date>2024</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First working fusion drive developed</headline>
+    <date>2026</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>AS Columbia voyages to Mars</headline>
+    <date>2027</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance formed</headline>
+    <date>2086</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Kearny-Fuchida theories validated</headline>
+    <date>2102</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Pathfinder makes round-trip voyage to Tau Ceti system</headline>
+    <date>2108</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First interstellar colony established on New Earth</headline>
+    <date>2116</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Alliance Grand Survey</headline>
+    <date>2172</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ryan Cartel formed</headline>
+    <date>2177</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liberal Party takes power on Terra</headline>
+    <date>2237</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Exodus begins</headline>
+    <date>2242</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League founded</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James McKenna takes command of Terran Alliance Navy</headline>
+    <date>2295</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Dreadnought, the first true combat warship, launched</headline>
+    <date>2300</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>People's Independence Party formed</headline>
+    <date>2310</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Grant Zoli murdered</headline>
+    <date>2314</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Orbital bombardment of Strand Rock, Terran Hegemony Charter issued, Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James McKenna elected Director-General of the Terran Hegemony. Invasion of Quentin, Errai and Helen</headline>
+    <date>2316</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns founded</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine founded</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Terra Firma, Capella and Nanking</headline>
+    <date>2320</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Syrma, James McKenna dies</headline>
+    <date>2338</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Cameron elected Director-General, Hegemony Research Alliance Department created</headline>
+    <date>2340</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth founded</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hegemony Business Information Exchange formed</headline>
+    <date>2343</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Musclebound takes place</headline>
+    <date>2350</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peer's List created</headline>
+    <date>2351</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation founded</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Cameron retires, Margaret Cameron elected Director-General, Military Recruitment and Preparedness Bill passed</headline>
+    <date>2367</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mother Doctrine established</headline>
+    <date>2380</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Margaret Cameron retires, Raymond Cameron elected Director-General</headline>
+    <date>2382</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raymond Cameron assassinated</headline>
+    <date>2387</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brian Cameron elected Director-General</headline>
+    <date>2388</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Construction of Castles Brian begins</headline>
+    <date>2391</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Succession Bill passed</headline>
+    <date>2392</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brian Cameron killed, Judith Cameron elected Director-General</headline>
+    <date>2403</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tintavel Massacre, Ares Conventions adopted</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Judith Cameron steps down, Richard Cameron elected Director-General</headline>
+    <date>2419</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kentares system seized</headline>
+    <date>2431</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nomination Laws revised</headline>
+    <date>2432</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron dies, Jacob Cameron elected Director-General</headline>
+    <date>2433</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMech invented</headline>
+    <date>2439</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth steals BattleMech plans from Terran Hegemony</headline>
+    <date>2455</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jacob Cameron dies, Theodore Cameron elected Director-General</headline>
+    <date>2461</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First General Strike in Hegemony history</headline>
+    <date>2470</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Theodore Cameron dies, Elizabeth Cameron elected Director-General</headline>
+    <date>2479</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elizabeth Cameron dies, Deborah Cameron elected Director-General</headline>
+    <date>2501</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Omsol Accords signed</headline>
+    <date>2511</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Andurien War begins</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Deborah Cameron negotiates peace between Free Worlds League and Capellan Confederation, Second Andurien War ends</headline>
+    <date>2531</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shandra Noruff betrothed to Ian Cameron</headline>
+    <date>2533</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shandra Noruff marries Ian Cameron</headline>
+    <date>2535</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Deborah Cameron retires, Joseph Cameron elected Director-General</headline>
+    <date>2542</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Cameron assassinated, Ian Cameron declares himself Director-General, September Revolt</headline>
+    <date>2549</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Andurien War begins</headline>
+    <date>2551</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron negotiates peace between Free Worlds League and Capellan Confederation, Third Andurien War ends, Treaty of Geneva signed, Age of War ends, Nicholas Cameron born</headline>
+    <date>2556</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tharkad Accords signed</headline>
+    <date>2558</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Avalon Accords signed</headline>
+    <date>2567</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treaty of Vega signed</headline>
+    <date>2569</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League Accords signed, Star League formed, Shandra Noruff-Cameron appointed Commander-in-Chief of Star League Defense Force, Ian Cameron named First Lord of the Star League</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron delegates all duties as Director-General to his heir and the President of the Hegemony Congress, United Triumph Military Exercises take place, Border Guards Agreement passed, Santiago Massacre, Executive Order 4 issued</headline>
+    <date>2572</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Bureau of Star League Affairs created, Rim Worlds Republic requires Universal Act of Loyalty</headline>
+    <date>2573</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Harsh Periphery trade restrictions and taxes passed</headline>
+    <date>2574</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Pollux Proclamation issued, Reunification War begins, Taurian Campaign begins, Manchester Directive issued, Shandra Noruff-Cameron steps down, General Carlos Dangmar Lee named Commander-in-Chief</headline>
+    <date>2575</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Case Amber adopted</headline>
+    <date>2576</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Canopian Campaign begins</headline>
+    <date>2577</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League officially declares war</headline>
+    <date>2578</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron renounces tenets of Ares Conventions</headline>
+    <date>2579</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outworlds Campaign begins, Pitcairn Legion formed, Rim Worlds Campaign begins</headline>
+    <date>2581</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shippers License Act passed</headline>
+    <date>2582</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Amalthea Kincaid assassinated</headline>
+    <date>2583</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Canopus IV captured</headline>
+    <date>2584</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peace of Cerberus signed, Outworlds Campaign ends</headline>
+    <date>2585</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Canopian Campaign ends</headline>
+    <date>2588</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian Campaign ends, Rim Worlds Campaign ends</headline>
+    <date>2596</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War ends. Taurian Concordat, Outworlds Alliance, Rim Worlds Republic, and Magistracy of Canopus become Territorial States of the Star League</headline>
+    <date>2597</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nicholas Cameron marries Lydia Peterson, General Nicholas Kinnol named</headline>
+    <date>2598</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shandra Noruff-Cameron dies, Good Years begin</headline>
+    <date>2600</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron dies, Nicholas Cameron named First Lord</headline>
+    <date>2602</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kerensky family named "Defenders of the First Lord"</headline>
+    <date>2604</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Executive Order 34 issued</headline>
+    <date>2606</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Territorial States given Associate-Member status</headline>
+    <date>2607</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Hoshiko named Minister of Communications</headline>
+    <date>2614</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Star League currency system adopted</headline>
+    <date>2623</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Hyper Pulse Generator built</headline>
+    <date>2629</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Cameron named Director-General</headline>
+    <date>2630</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Executive Order 35 issued</headline>
+    <date>2631</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Martial Olympiad</headline>
+    <date>2640</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Cameron implicated in fraud, Joseph Cameron dies</headline>
+    <date>2641</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Killian Squarn-Turk named Commander-in-Chief</headline>
+    <date>2646</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nicholas Cameron dies, Michael Cameron named First Lord</headline>
+    <date>2649</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Good Years end, Council Edict 2650 issued</headline>
+    <date>2650</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Cameron marries Katarina Mann</headline>
+    <date>2659</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House units allowed to compete in Martial Olympiads</headline>
+    <date>2676</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Admiral David Peterson named Commander-in-Chief</headline>
+    <date>2680</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First duel involving SLDF Mechwarrior fought</headline>
+    <date>2681</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Cameron retires, Jonathan Cameron named First Lord</headline>
+    <date>2690</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aleksandr Kerensky born</headline>
+    <date>2700</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jocasta Cameron becomes Mother Jocasta</headline>
+    <date>2704</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Ikolor Fredasa named Commander-in-Chief</headline>
+    <date>2707</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council Directive 41 passed</headline>
+    <date>2722</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Rebecca Fetladral named Commander-in-Chief</headline>
+    <date>2729</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mother Jocasta becomes de facto First Lord</headline>
+    <date>2735</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Last Martial Olympiad</headline>
+    <date>2736</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jonathan Cameron dies, Simon Cameron named First Lord, Aleksandr Kerensky named Commander-in-Chief</headline>
+    <date>2738</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mother Jocasta dies</headline>
+    <date>2742</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron begins tour of Star League</headline>
+    <date>2750</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron killed, Richard Cameron named First Lord, Aleksandr Kerensky named Regent</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amendment to Council Edict of 2650 illegally passed, laws imposing heavy taxes on Periphery passed</headline>
+    <date>2752</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris meets Richard Cameron</headline>
+    <date>2753</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Birthday Proclamations passed</headline>
+    <date>2755</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron comes of age, Executive Order 156 issued and withdrawn</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron signs secret treaty with Rim Worlds Republic</headline>
+    <date>2764</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Eighteen Periphery worlds secede from the Star League</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron assassinated, Amaris coup</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris proclaims himself First Lord, Rim Worlds Republic invaded</headline>
+    <date>2767</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Worlds Republic destroyed</headline>
+    <date>2769</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony Campaign begins</headline>
+    <date>2772</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Liberation takes place</headline>
+    <date>2777</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris captured and killed</headline>
+    <date>2779</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aleksandr Kerensky stripped of title of Protector</headline>
+    <date>2780</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League disbanded</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>HCC</service>
+    <location></location>
+  </newsItem>
+</news>

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+kurita_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>First full-scale fusion reactor completed</headline>
+    <date>2020</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Takayoshi Fuchida dies</headline>
+    <date>2038</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Kearny dies</headline>
+    <date>2047</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Kearny-Fuchida Drive proven feasible</headline>
+    <date>2102</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Deimos Project undertaken</headline>
+    <date>2103</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Pathfinder makes hyperspatial jump</headline>
+    <date>2108</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Alliance Grand Survey initiated</headline>
+    <date>2168</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outer Reaches Rebellion begins</headline>
+    <date>2236</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outer Reaches Rebellion ends</headline>
+    <date>2238</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shiro Kurita born</headline>
+    <date>2270</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League founded</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shiro Kurita named First Citizen of Galedon</headline>
+    <date>2296</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance of Galedon formed</headline>
+    <date>2302</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First full-scale interstellar military operation</headline>
+    <date>2303</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tenno Kurita born</headline>
+    <date>2305</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council of One summit meeting</headline>
+    <date>2311</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns founded</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine founded</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita dies, Nihongi Kurita born</headline>
+    <date>2336</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth founded</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adam Kurita named Warlord of Rasalhague</headline>
+    <date>2342</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shiro Kurita dies, Tenno Kurita named Coordinator</headline>
+    <date>2348</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation founded</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tenno Kurita commits seppuku, Nihongi Kurita named Coordinator</headline>
+    <date>2376</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jason Kurita named Warlord of Rasalhague</headline>
+    <date>2378</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parker Kurita born</headline>
+    <date>2380</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nihongi Kurita dies, Robert Kurita named Coordinator</headline>
+    <date>2396</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Tamar Pact</headline>
+    <date>2407</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ares Conventions signed, Robert Kurita assassinated, Parker Kurita named Coordinator</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parker Kurita killed, Nihongi Von Rohrs named Coordinator, Jason Kurita killed, Daniel Sorenson becomes Lord of Rasalhague, line of succession becomes blurred</headline>
+    <date>2421</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMech invented</headline>
+    <date>2439</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine gains BattleMech technology</headline>
+    <date>2461</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First full-scale BattleMech vs. BattleMech battle</headline>
+    <date>2475</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Daniel Sorenson dies</headline>
+    <date>2487</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Martin McAllister marries Illyana Sorenson</headline>
+    <date>2494</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Siriwan McAllister-Kurita born</headline>
+    <date>2496</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Illyana Sorenson dies</headline>
+    <date>2499</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Von Rohrs line eliminated during McAllister Rebellion, Martin McAllister named Coordinator, Rasalhague and Draconis Combine unite</headline>
+    <date>2510</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Martin McAllister assassinated, Siriwan McAllister-Kurita named Brevet Coordinator, Siriwan McAllister-Kurita and Warren Kurita marry, Warren Kurita named Coordinator</headline>
+    <date>2515</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hehiro Kurita born</headline>
+    <date>2516</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Warren Kurita dies, Siriwan McAllister-Kurita named Regent</headline>
+    <date>2517</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hehiro Kurita named Coordinator</headline>
+    <date>2556</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treaty of Vega signed</headline>
+    <date>2569</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League formed</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War begins</headline>
+    <date>2577</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hehiro Kurita dies, Leonard Kurita named Coordinator</headline>
+    <date>2591</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War ends</headline>
+    <date>2597</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Leonard Kurita dies, Blaine Kurita named Coordinator, Blaine Kurita dies, Siriwan McAllister-Kurita named Coordinator</headline>
+    <date>2605</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Siriwan McAllister-Kurita retires, Sanethia Kurita named Coordinator</headline>
+    <date>2607</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Capital moved to Luthien</headline>
+    <date>2617</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sanethia Kurita retires, Urizen Kurita named Coordinator</headline>
+    <date>2620</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League system of currency adopted</headline>
+    <date>2623</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Siriwan McAllister-Kurita dies</headline>
+    <date>2632</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine industrial development program initiated</headline>
+    <date>2652</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Internal Security Force budget quadrupled</headline>
+    <date>2680</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Land-Air 'Mech produced</headline>
+    <date>2688</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita retires, Takiro Kurita named Coordinator</headline>
+    <date>2691</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita dies</headline>
+    <date>2710</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron killed</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup, Takiro Kurita dies, Minoru Kurita named Coordinator</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League disbanded</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins, Minoru Kurita proclaims himself First Lord of the Star League</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minoru Kurita assassinated, Jinjiro Kurita named Coordinator, Kentares IV Massacre</headline>
+    <date>2796</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Federated Suns offensive</headline>
+    <date>2798</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Federated Suns offensive</headline>
+    <date>2808</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Federated Suns offensive</headline>
+    <date>2811</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New mercenary payment plan instituted</headline>
+    <date>2822</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minnesota Tribe raids Svelvik, Trondheim, Jarrett, and Richmond</headline>
+    <date>2825</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jinjiro Kurita retires, Zabu Kurita named Coordinator</headline>
+    <date>2837</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Zabu Kurita commits seppuku, Yoguchi Kurita named Coordinator, ISF attached to Draconis Combine Mustered Soldiery</headline>
+    <date>2838</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First major Combine offensive launched</headline>
+    <date>2840</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jinjiro Kurita commits suicide, major Federated Suns offensive launched, Roweena Kurita named Coordinator of People's Reconstruction Effort</headline>
+    <date>2841</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Yoguchi Kurita assassinated by Snow Fire, Miyogi Kurita named Coordinator</headline>
+    <date>2850</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second major Combine offensive launched</headline>
+    <date>2854</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends, Shadow War begins</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shadow War ends, Third Succession War begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Miyogi Kurita assassinated, Jon Kurita killed, Taragi Kurita named Coordinator</headline>
+    <date>2892</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taragi Kurita dies, Shinjiro Kurita named Coordinator</headline>
+    <date>2907</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gray Dragons formed</headline>
+    <date>2911</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First major Lyran Commonwealth offensive</headline>
+    <date>2913</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Davarapala Accords signed</headline>
+    <date>2921</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shinjiro Kurita dies, Hugai Kurita named Coordinator</headline>
+    <date>2925</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Necess Kurita joins ComStar, Necess Kurita kidnapped by Hugai Kurita, Luthien threatened by ComStar mercenaries, Necess Kurita released</headline>
+    <date>2930</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hugai Kurita dies, Hohiro Kurita named Coordinator</headline>
+    <date>2963</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Strike of 2989</headline>
+    <date>2989</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Takashi Kurita named Commander of the Otomo</headline>
+    <date>3000</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hohiro Kurita assassinated, Takashi Kurita named Coordinator</headline>
+    <date>3004</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Theodore Kurita and Tomoe Sakade marry</headline>
+    <date>3019</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Concord of Kapteyn signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War begins, Wolf's Dragoons leave Draconis Combine</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Battle for Crossing, St. Ives Compact formed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Theodore Kurita named Gunji no Kanrei, Draconis Combine receives Star League BattleMechs from ComStar</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine recognizes Free Rasalhague Republic, Ronin War takes place</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 begins</headline>
+    <date>3039</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 ends</headline>
+    <date>3040</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clan Invasion of Draconis Combine begins, Battle of Wolcott</headline>
+    <date>3050</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Battle of Luthien, Battle of Tukayyid</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Takashi Kurita commits seppuku, Theodore Kurita named Coordinator</headline>
+    <date>3054</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially formed</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Alliance formed</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine forces installed as peacekeepers in Chaos March, invasion of Coventry, Black Dragon Society and others attempt to assassinate Theodore Kurita</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>DCC</service>
+    <location></location>
+  </newsItem>
+</news>

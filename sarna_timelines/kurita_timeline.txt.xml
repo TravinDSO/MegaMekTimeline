@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<news>
+  <event>
+    <year>2020</year>
+    <description>First full-scale fusion reactor completed</description>
+  </event>
+  <event>
+    <year>2038</year>
+    <description>Takayoshi Fuchida dies</description>
+  </event>
+  <event>
+    <year>2047</year>
+    <description>Thomas Kearny dies</description>
+  </event>
+  <event>
+    <year>2102</year>
+    <description>Kearny-Fuchida Drive proven feasible</description>
+  </event>
+  <event>
+    <year>2103</year>
+    <description>Deimos Project undertaken</description>
+  </event>
+  <event>
+    <year>2108</year>
+    <description>TAS Pathfinder makes hyperspatial jump</description>
+  </event>
+  <event>
+    <year>2168</year>
+    <description>First Alliance Grand Survey initiated</description>
+  </event>
+  <event>
+    <year>2236</year>
+    <description>Outer Reaches Rebellion begins</description>
+  </event>
+  <event>
+    <year>2238</year>
+    <description>Outer Reaches Rebellion ends</description>
+  </event>
+  <event>
+    <year>2270</year>
+    <description>Shiro Kurita born</description>
+  </event>
+  <event>
+    <year>2271</year>
+    <description>Free Worlds League founded</description>
+  </event>
+  <event>
+    <year>2296</year>
+    <description>Shiro Kurita named First Citizen of Galedon</description>
+  </event>
+  <event>
+    <year>2302</year>
+    <description>Alliance of Galedon formed</description>
+  </event>
+  <event>
+    <year>2303</year>
+    <description>First full-scale interstellar military operation</description>
+  </event>
+  <event>
+    <year>2305</year>
+    <description>Tenno Kurita born</description>
+  </event>
+  <event>
+    <year>2311</year>
+    <description>Council of One summit meeting</description>
+  </event>
+  <event>
+    <year>2315</year>
+    <description>Terran Hegemony formed</description>
+  </event>
+  <event>
+    <year>2317</year>
+    <description>Federated Suns founded</description>
+  </event>
+  <event>
+    <year>2319</year>
+    <description>Draconis Combine founded</description>
+  </event>
+  <event>
+    <year>2336</year>
+    <description>Urizen Kurita dies, Nihongi Kurita born</description>
+  </event>
+  <event>
+    <year>2341</year>
+    <description>Lyran Commonwealth founded</description>
+  </event>
+  <event>
+    <year>2342</year>
+    <description>Adam Kurita named Warlord of Rasalhague</description>
+  </event>
+  <event>
+    <year>2348</year>
+    <description>Shiro Kurita dies, Tenno Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2366</year>
+    <description>Capellan Confederation founded</description>
+  </event>
+  <event>
+    <year>2376</year>
+    <description>Tenno Kurita commits seppuku, Nihongi Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2378</year>
+    <description>Jason Kurita named Warlord of Rasalhague</description>
+  </event>
+  <event>
+    <year>2380</year>
+    <description>Parker Kurita born</description>
+  </event>
+  <event>
+    <year>2396</year>
+    <description>Nihongi Kurita dies, Robert Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2398</year>
+    <description>Age of War begins</description>
+  </event>
+  <event>
+    <year>2407</year>
+    <description>Invasion of Tamar Pact</description>
+  </event>
+  <event>
+    <year>2412</year>
+    <description>Ares Conventions signed, Robert Kurita assassinated, Parker Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2421</year>
+    <description>Parker Kurita killed, Nihongi Von Rohrs named Coordinator, Jason Kurita killed, Daniel Sorenson becomes Lord of Rasalhague, line of succession becomes blurred</description>
+  </event>
+  <event>
+    <year>2439</year>
+    <description>BattleMech invented</description>
+  </event>
+  <event>
+    <year>2461</year>
+    <description>Draconis Combine gains BattleMech technology</description>
+  </event>
+  <event>
+    <year>2475</year>
+    <description>First full-scale BattleMech vs. BattleMech battle</description>
+  </event>
+  <event>
+    <year>2487</year>
+    <description>Daniel Sorenson dies</description>
+  </event>
+  <event>
+    <year>2494</year>
+    <description>Martin McAllister marries Illyana Sorenson</description>
+  </event>
+  <event>
+    <year>2496</year>
+    <description>Siriwan McAllister-Kurita born</description>
+  </event>
+  <event>
+    <year>2499</year>
+    <description>Illyana Sorenson dies</description>
+  </event>
+  <event>
+    <year>2510</year>
+    <description>Von Rohrs line eliminated during McAllister Rebellion, Martin McAllister named Coordinator, Rasalhague and Draconis Combine unite</description>
+  </event>
+  <event>
+    <year>2515</year>
+    <description>Martin McAllister assassinated, Siriwan McAllister-Kurita named Brevet Coordinator, Siriwan McAllister-Kurita and Warren Kurita marry, Warren Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2516</year>
+    <description>Hehiro Kurita born</description>
+  </event>
+  <event>
+    <year>2517</year>
+    <description>Warren Kurita dies, Siriwan McAllister-Kurita named Regent</description>
+  </event>
+  <event>
+    <year>2556</year>
+    <description>Hehiro Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2569</year>
+    <description>Treaty of Vega signed</description>
+  </event>
+  <event>
+    <year>2571</year>
+    <description>Star League formed</description>
+  </event>
+  <event>
+    <year>2577</year>
+    <description>Reunification War begins</description>
+  </event>
+  <event>
+    <year>2591</year>
+    <description>Hehiro Kurita dies, Leonard Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2597</year>
+    <description>Reunification War ends</description>
+  </event>
+  <event>
+    <year>2605</year>
+    <description>Leonard Kurita dies, Blaine Kurita named Coordinator, Blaine Kurita dies, Siriwan McAllister-Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2607</year>
+    <description>Siriwan McAllister-Kurita retires, Sanethia Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2617</year>
+    <description>Draconis Capital moved to Luthien</description>
+  </event>
+  <event>
+    <year>2620</year>
+    <description>Sanethia Kurita retires, Urizen Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2623</year>
+    <description>Star League system of currency adopted</description>
+  </event>
+  <event>
+    <year>2632</year>
+    <description>Siriwan McAllister-Kurita dies</description>
+  </event>
+  <event>
+    <year>2652</year>
+    <description>Draconis Combine industrial development program initiated</description>
+  </event>
+  <event>
+    <year>2680</year>
+    <description>Internal Security Force budget quadrupled</description>
+  </event>
+  <event>
+    <year>2688</year>
+    <description>First Land-Air 'Mech produced</description>
+  </event>
+  <event>
+    <year>2691</year>
+    <description>Urizen Kurita retires, Takiro Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2710</year>
+    <description>Urizen Kurita dies</description>
+  </event>
+  <event>
+    <year>2751</year>
+    <description>Simon Cameron killed</description>
+  </event>
+  <event>
+    <year>2766</year>
+    <description>Amaris coup, Takiro Kurita dies, Minoru Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2781</year>
+    <description>Star League disbanded</description>
+  </event>
+  <event>
+    <year>2784</year>
+    <description>Operation Exodus takes place</description>
+  </event>
+  <event>
+    <year>2786</year>
+    <description>First Succession War begins, Minoru Kurita proclaims himself First Lord of the Star League</description>
+  </event>
+  <event>
+    <year>2796</year>
+    <description>Minoru Kurita assassinated, Jinjiro Kurita named Coordinator, Kentares IV Massacre</description>
+  </event>
+  <event>
+    <year>2798</year>
+    <description>First Federated Suns offensive</description>
+  </event>
+  <event>
+    <year>2808</year>
+    <description>Second Federated Suns offensive</description>
+  </event>
+  <event>
+    <year>2811</year>
+    <description>Third Federated Suns offensive</description>
+  </event>
+  <event>
+    <year>2821</year>
+    <description>First Succession War ends</description>
+  </event>
+  <event>
+    <year>2822</year>
+    <description>New mercenary payment plan instituted</description>
+  </event>
+  <event>
+    <year>2825</year>
+    <description>Minnesota Tribe raids Svelvik, Trondheim, Jarrett, and Richmond</description>
+  </event>
+  <event>
+    <year>2830</year>
+    <description>Second Succession War begins</description>
+  </event>
+  <event>
+    <year>2837</year>
+    <description>Jinjiro Kurita retires, Zabu Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2838</year>
+    <description>Zabu Kurita commits seppuku, Yoguchi Kurita named Coordinator, ISF attached to Draconis Combine Mustered Soldiery</description>
+  </event>
+  <event>
+    <year>2840</year>
+    <description>First major Combine offensive launched</description>
+  </event>
+  <event>
+    <year>2841</year>
+    <description>Jinjiro Kurita commits suicide, major Federated Suns offensive launched, Roweena Kurita named Coordinator of People's Reconstruction Effort</description>
+  </event>
+  <event>
+    <year>2850</year>
+    <description>Yoguchi Kurita assassinated by Snow Fire, Miyogi Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2854</year>
+    <description>Second major Combine offensive launched</description>
+  </event>
+  <event>
+    <year>2864</year>
+    <description>Second Succession War ends, Shadow War begins</description>
+  </event>
+  <event>
+    <year>2866</year>
+    <description>Shadow War ends, Third Succession War begins</description>
+  </event>
+  <event>
+    <year>2892</year>
+    <description>Miyogi Kurita assassinated, Jon Kurita killed, Taragi Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2907</year>
+    <description>Taragi Kurita dies, Shinjiro Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2911</year>
+    <description>Gray Dragons formed</description>
+  </event>
+  <event>
+    <year>2913</year>
+    <description>First major Lyran Commonwealth offensive</description>
+  </event>
+  <event>
+    <year>2921</year>
+    <description>Davarapala Accords signed</description>
+  </event>
+  <event>
+    <year>2925</year>
+    <description>Shinjiro Kurita dies, Hugai Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2930</year>
+    <description>Necess Kurita joins ComStar, Necess Kurita kidnapped by Hugai Kurita, Luthien threatened by ComStar mercenaries, Necess Kurita released</description>
+  </event>
+  <event>
+    <year>2963</year>
+    <description>Hugai Kurita dies, Hohiro Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>2989</year>
+    <description>Strike of 2989</description>
+  </event>
+  <event>
+    <year>3000</year>
+    <description>Takashi Kurita named Commander of the Otomo</description>
+  </event>
+  <event>
+    <year>3004</year>
+    <description>Hohiro Kurita assassinated, Takashi Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>3019</year>
+    <description>Theodore Kurita and Tomoe Sakade marry</description>
+  </event>
+  <event>
+    <year>3022</year>
+    <description>Concord of Kapteyn signed</description>
+  </event>
+  <event>
+    <year>3025</year>
+    <description>Third Succession War ends</description>
+  </event>
+  <event>
+    <year>3028</year>
+    <description>Fourth Succession War begins, Wolf's Dragoons leave Draconis Combine</description>
+  </event>
+  <event>
+    <year>3029</year>
+    <description>Battle for Crossing, St. Ives Compact formed</description>
+  </event>
+  <event>
+    <year>3030</year>
+    <description>Fourth Succession War ends, Theodore Kurita named Gunji no Kanrei, Draconis Combine receives Star League BattleMechs from ComStar</description>
+  </event>
+  <event>
+    <year>3034</year>
+    <description>Draconis Combine recognizes Free Rasalhague Republic, Ronin War takes place</description>
+  </event>
+  <event>
+    <year>3039</year>
+    <description>War of 3039 begins</description>
+  </event>
+  <event>
+    <year>3040</year>
+    <description>War of 3039 ends</description>
+  </event>
+  <event>
+    <year>3050</year>
+    <description>Clan Invasion of Draconis Combine begins, Battle of Wolcott</description>
+  </event>
+  <event>
+    <year>3052</year>
+    <description>Battle of Luthien, Battle of Tukayyid</description>
+  </event>
+  <event>
+    <year>3054</year>
+    <description>Takashi Kurita commits seppuku, Theodore Kurita named Coordinator</description>
+  </event>
+  <event>
+    <year>3056</year>
+    <description>Federated Commonwealth officially formed</description>
+  </event>
+  <event>
+    <year>3057</year>
+    <description>Lyran Alliance formed</description>
+  </event>
+  <event>
+    <year>3058</year>
+    <description>Draconis Combine forces installed as peacekeepers in Chaos March, invasion of Coventry, Black Dragon Society and others attempt to assassinate Theodore Kurita</description>
+  </event>
+</news>

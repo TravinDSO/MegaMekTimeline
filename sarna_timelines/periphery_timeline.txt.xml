@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<news>
+  <event>
+    <year>2011</year>
+    <description>Tikonov Accords signed, Oleg Tikonov assassinated, Second Soviet Civil War begins</description>
+  </event>
+  <event>
+    <year>2014</year>
+    <description>Second Soviet Civil War ends</description>
+  </event>
+  <event>
+    <year>2086</year>
+    <description>Terran Alliance formed</description>
+  </event>
+  <event>
+    <year>2102</year>
+    <description>Kearny/Fuchida experiments validated</description>
+  </event>
+  <event>
+    <year>2103</year>
+    <description>Deimos Project begun</description>
+  </event>
+  <event>
+    <year>2108</year>
+    <description>TAS Pathfinder makes first manned survey of Tau Ceti IV</description>
+  </event>
+  <event>
+    <year>2112</year>
+    <description>Research outpost established on New Earth</description>
+  </event>
+  <event>
+    <year>2116</year>
+    <description>First permanent interstellar colony established on New Earth</description>
+  </event>
+  <event>
+    <year>2128</year>
+    <description>Colonization Procedure Referendum passed</description>
+  </event>
+  <event>
+    <year>2235</year>
+    <description>Alliance Grand Survey of Inhabited Planets conducted</description>
+  </event>
+  <event>
+    <year>2236</year>
+    <description>Freedom declares itself independent, Outer Reaches Rebellion begins</description>
+  </event>
+  <event>
+    <year>2237</year>
+    <description>Liberal Party displaces Expansionist Party</description>
+  </event>
+  <event>
+    <year>2238</year>
+    <description>Outer Reaches Rebellion ends</description>
+  </event>
+  <event>
+    <year>2242</year>
+    <description>Terran Alliance releases Demarcation Declaration</description>
+  </event>
+  <event>
+    <year>2250</year>
+    <description>Rim Worlds Republic formed, Calderon Flotilla leaves Aix-La-Chappelle</description>
+  </event>
+  <event>
+    <year>2253</year>
+    <description>Taurus colonized</description>
+  </event>
+  <event>
+    <year>2268</year>
+    <description>Samantha Calderon dies, Timothy Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2271</year>
+    <description>Free Worlds League formed</description>
+  </event>
+  <event>
+    <year>2305</year>
+    <description>Hector Rowe commits suicide, Maxwell Rowe named First Consul of the Rim Worlds Republic</description>
+  </event>
+  <event>
+    <year>2310</year>
+    <description>Megaris system settled</description>
+  </event>
+  <event>
+    <year>2312</year>
+    <description>Samantha system settled</description>
+  </event>
+  <event>
+    <year>2314</year>
+    <description>Terran Alliance collapses</description>
+  </event>
+  <event>
+    <year>2315</year>
+    <description>Terran Hegemony formed</description>
+  </event>
+  <event>
+    <year>2316</year>
+    <description>Renfield system settled</description>
+  </event>
+  <event>
+    <year>2317</year>
+    <description>Federated Suns formed, Cyrton system settled</description>
+  </event>
+  <event>
+    <year>2319</year>
+    <description>Draconis Combine formed</description>
+  </event>
+  <event>
+    <year>2320</year>
+    <description>Ishtar system settled</description>
+  </event>
+  <event>
+    <year>2330</year>
+    <description>Timothy Calderon dies, Sandra Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2335</year>
+    <description>Richard Calderon named Protector of the Taurian Homeworlds, Taurian Concordat formed</description>
+  </event>
+  <event>
+    <year>2341</year>
+    <description>Lyran Commonwealth formed, Arabella Rowe named First Consul</description>
+  </event>
+  <event>
+    <year>2366</year>
+    <description>Capellan Confederation formed</description>
+  </event>
+  <event>
+    <year>2376</year>
+    <description>Arabella Rowe dies, Michael Durant named First Consul</description>
+  </event>
+  <event>
+    <year>2387</year>
+    <description>Richard Calderon dies, Daniel Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2390</year>
+    <description>Daniel Calderon dies, Sigur Fonn named Regent-Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2398</year>
+    <description>Age of War begins</description>
+  </event>
+  <event>
+    <year>2412</year>
+    <description>Ares Conventions signed</description>
+  </event>
+  <event>
+    <year>2413</year>
+    <description>Julius Avellar withdraws to Alpheratz</description>
+  </event>
+  <event>
+    <year>2415</year>
+    <description>Outworlds Alliance formed</description>
+  </event>
+  <event>
+    <year>2417</year>
+    <description>Outworlds Alliance Charter ratified</description>
+  </event>
+  <event>
+    <year>2439</year>
+    <description>BattleMech invented</description>
+  </event>
+  <event>
+    <year>2459</year>
+    <description>First full-scale use of BattleMechs</description>
+  </event>
+  <event>
+    <year>2463</year>
+    <description>Heather Durant dies, Terens Amaris named First Consul</description>
+  </event>
+  <event>
+    <year>2488</year>
+    <description>Rim Worlds Republic becomes hereditary Amaris holding</description>
+  </event>
+  <event>
+    <year>2511</year>
+    <description>Omsol Accords signed</description>
+  </event>
+  <event>
+    <year>2528</year>
+    <description>Ariana's War takes place</description>
+  </event>
+  <event>
+    <year>2530</year>
+    <description>Kotsandra Centrella founds the Magistracy of Canopus</description>
+  </event>
+  <event>
+    <year>2531</year>
+    <description>Magistracy of Canopus' Constitution of Magistracy Free States established</description>
+  </event>
+  <event>
+    <year>2570</year>
+    <description>Coranna Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2571</year>
+    <description>Star League formed</description>
+  </event>
+  <event>
+    <year>2572</year>
+    <description>Star League Directive 21 instituted, Santiago Massacre</description>
+  </event>
+  <event>
+    <year>2573</year>
+    <description>Malagrotta Affair, Rim Worlds Republic Universal Act of Loyalty passed</description>
+  </event>
+  <event>
+    <year>2575</year>
+    <description>Pollux Proclamation issued, Rim Worlds Republic Manchester Directive issued, Reunification War begins</description>
+  </event>
+  <event>
+    <year>2576</year>
+    <description>Case Amber adopted</description>
+  </event>
+  <event>
+    <year>2581</year>
+    <description>Star League forces orbitally bombard Robsart, Consadine Mission launched, Operation Mailed Fist begins</description>
+  </event>
+  <event>
+    <year>2583</year>
+    <description>Case Black enacted, Amalthea Kincaid assassinated</description>
+  </event>
+  <event>
+    <year>2585</year>
+    <description>Peace of Cerberus negotiated</description>
+  </event>
+  <event>
+    <year>2587</year>
+    <description>Grigori Avellar dies, Barton Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2588</year>
+    <description>Mitchell Calderon dies, Marantha Calderon named Protector of the Taurian Homeworlds, Magistracy of Canopus is conquered, Melissa Humphreys appointed Military Governor of the Magistracy of Canopus</description>
+  </event>
+  <event>
+    <year>2596</year>
+    <description>Taurian Concordat surrenders, Marantha Calderon commits suicide, Henry Calderon named Protector of the Taurian Homeworlds, Rim Provisional Government surrenders</description>
+  </event>
+  <event>
+    <year>2599</year>
+    <description>Gregory Amaris assassinated, Richard Amaris named President of the Rim Worlds Republic</description>
+  </event>
+  <event>
+    <year>2600</year>
+    <description>Barton Avellar assassinated, Rodrigo Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2604</year>
+    <description>Home Rule reestablished in the Magistracy of Canopus, Rinalla Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2605</year>
+    <description>Last Star League occupation forces leave Taurian Concordat</description>
+  </event>
+  <event>
+    <year>2607</year>
+    <description>Last Star League occupation forces leave Outworlds Alliance</description>
+  </event>
+  <event>
+    <year>2612</year>
+    <description>Rinalla Centrella abdicates, Carla Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2619</year>
+    <description>Richard Amaris dies, Amanda Amaris named President</description>
+  </event>
+  <event>
+    <year>2620</year>
+    <description>Amanda Amaris assassinated, Jeffrey Amaris named President</description>
+  </event>
+  <event>
+    <year>2622</year>
+    <description>Democratic elections restored in the Rim Worlds Republic, Jeffrey Amaris abdicates, Selanta Amaris named President</description>
+  </event>
+  <event>
+    <year>2623</year>
+    <description>Star League adopts universal currency</description>
+  </event>
+  <event>
+    <year>2628</year>
+    <description>Rodrigo Avellar dies, Caryn Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2629</year>
+    <description>Henry Calderon abdicates, Consuelo Calderon named Regent-Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2634</year>
+    <description>Caryn Avellar removed, Peter Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2640</year>
+    <description>Peter Avellar killed</description>
+  </event>
+  <event>
+    <year>2642</year>
+    <description>Adolfo Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2649</year>
+    <description>Selanta Amaris undergoes cancer treatment, Tadeo Amaris named Regent</description>
+  </event>
+  <event>
+    <year>2650</year>
+    <description>Council Edict of 2650 issued, Consuelo Calderon claims right of succession in Taurian Concordat</description>
+  </event>
+  <event>
+    <year>2651</year>
+    <description>New taxes levied against territorial states</description>
+  </event>
+  <event>
+    <year>2654</year>
+    <description>Carla Centrella abdicates, Celine Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2656</year>
+    <description>Celine Centrella dies, Gorraine Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2663</year>
+    <description>Consuelo Calderon named Second Lord</description>
+  </event>
+  <event>
+    <year>2671</year>
+    <description>Consuelo Calderon dies, Reginald Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2678</year>
+    <description>Taurian Concordat's Education Reform Act passed</description>
+  </event>
+  <event>
+    <year>2680</year>
+    <description>Gorraine Centrella dies, Kim Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2687</year>
+    <description>Reginald Calderon retires, Jentarra Calderon named Protector of the Taurian Homeworlds, Adolfo Avellar dies, Davis Avellar named Parliamentary President, Selanta Amaris dies, Carl Siever named President</description>
+  </event>
+  <event>
+    <year>2694</year>
+    <description>Jentarra Calderon removed, Brandon Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2702</year>
+    <description>Kim Centrella retires, Jehan Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2706</year>
+    <description>Davis Avellar retires, Heather Avellar named Regent of the Outworlds Alliance</description>
+  </event>
+  <event>
+    <year>2709</year>
+    <description>Beatrice Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2717</year>
+    <description>Stefan Amaris born</description>
+  </event>
+  <event>
+    <year>2725</year>
+    <description>Brandon Calderon retires, Hampton Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2726</year>
+    <description>Hampton Calderon assassinated, Nicoletta Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2738</year>
+    <description>Jehan Centrella retires, Vanura Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2751</year>
+    <description>Simon Cameron dies, Richard Cameron named First Lord of the Star League, Aleksandr Kerensky named Regent</description>
+  </event>
+  <event>
+    <year>2760</year>
+    <description>Vanura Centrella dies, Janina Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>2762</year>
+    <description>Richard Cameron comes of age, Executive Order 156 issued and withdrawn</description>
+  </event>
+  <event>
+    <year>2763</year>
+    <description>Taxation Edict passed</description>
+  </event>
+  <event>
+    <year>2765</year>
+    <description>New Vandenberg Crisis, Beatrice Avellar dies, Allyce Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2766</year>
+    <description>Amaris coup</description>
+  </event>
+  <event>
+    <year>2767</year>
+    <description>Amaris-Kerensky Civil War begins, Rim Worlds Republic invaded</description>
+  </event>
+  <event>
+    <year>2769</year>
+    <description>Rim Worlds Republic destroyed</description>
+  </event>
+  <event>
+    <year>2772</year>
+    <description>Allyce Avellar removed, David Avellar named Parliamentary President</description>
+  </event>
+  <event>
+    <year>2779</year>
+    <description>Stefan Amaris executed</description>
+  </event>
+  <event>
+    <year>2781</year>
+    <description>Star League disbanded</description>
+  </event>
+  <event>
+    <year>2786</year>
+    <description>First Succession War begins, Magistracy of Canopus' declaration of independence issued</description>
+  </event>
+  <event>
+    <year>2813</year>
+    <description>Taurian-Canopian War begins</description>
+  </event>
+  <event>
+    <year>2814</year>
+    <description>Taurian-Canopian War ends</description>
+  </event>
+  <event>
+    <year>2821</year>
+    <description>First Succession War ends</description>
+  </event>
+  <event>
+    <year>2830</year>
+    <description>Second Succession War begins</description>
+  </event>
+  <event>
+    <year>2842</year>
+    <description>Ignatius Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>2860</year>
+    <description>Taurian Concordat's Constitutional Crisis of 2860</description>
+  </event>
+  <event>
+    <year>2864</year>
+    <description>Second Succession War ends</description>
+  </event>
+  <event>
+    <year>2866</year>
+    <description>Third Succession War begins</description>
+  </event>
+  <event>
+    <year>2955</year>
+    <description>Some Canopian Elector's positions become hereditary</description>
+  </event>
+  <event>
+    <year>2964</year>
+    <description>Eugenio Rosario killed</description>
+  </event>
+  <event>
+    <year>3012</year>
+    <description>Tamara Centrella dies, Kyalla Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>3015</year>
+    <description>Neil Avellar II named Parliamentary President</description>
+  </event>
+  <event>
+    <year>3017</year>
+    <description>Thomas Calderon named Protector of the Taurian Homeworlds</description>
+  </event>
+  <event>
+    <year>3020</year>
+    <description>Outworlds Alliance Educational Exchange Program begins</description>
+  </event>
+  <event>
+    <year>3025</year>
+    <description>Third Succession War ends</description>
+  </event>
+  <event>
+    <year>3028</year>
+    <description>Fourth Succession War begins</description>
+  </event>
+  <event>
+    <year>3029</year>
+    <description>St. Ives Compact formed</description>
+  </event>
+  <event>
+    <year>3030</year>
+    <description>Fourth Succession War ends, Duchy of Andurien secedes from Free Worlds League, Andurien-Canopian invasion of the Capellan Confederation begins</description>
+  </event>
+  <event>
+    <year>3034</year>
+    <description>Neil Avellar II marries Rebecca DeSanders, Free Rasalhague Republic formed</description>
+  </event>
+  <event>
+    <year>3040</year>
+    <description>Kyalla Centrella removed, Emma Centrella named Magestrix</description>
+  </event>
+  <event>
+    <year>3049</year>
+    <description>Clans invade the Periphery</description>
+  </event>
+  <event>
+    <year>3056</year>
+    <description>Federated Commonwealth officially formed</description>
+  </event>
+  <event>
+    <year>3057</year>
+    <description>Lyran Alliance formed</description>
+  </event>
+</news>

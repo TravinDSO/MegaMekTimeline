@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+marik_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Denebola declares independence from Terran Alliance</headline>
+    <date>2236</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik declares independence, Charles Marik forms Republic of Marik, Alliance fleet withdraws from Colony worlds</headline>
+    <date>2238</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik Constitution passed at Constitutional Convention of Republic of Marik, Oriente declares independence, Tomas Allison founds Federation of Oriente</headline>
+    <date>2241</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Republic of Marik, Federation of Oriente, and Principality of Regulus sign Document of Incorporation, forming Free Worlds League, Rule of 75 passed, Treaty of Marik passed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Juliano Marik named first Captain-General of the Free Worlds League, Stewart War takes place</headline>
+    <date>2293</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stewart Commonality annexed</headline>
+    <date>2295</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Christopher Marik marries Madelyne Sian and their descendants are denied the Captain-Generalcy</headline>
+    <date>2305</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ryerson Accords signed, first non-Marik named Captain-General</headline>
+    <date>2306</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance dissolved</headline>
+    <date>2314</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Juliano Marik signs Treaty of Terra</headline>
+    <date>2316</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>National Intelligence Agency formed, Federated Suns founded</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine founded</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth founded</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kyle, Dorian, Corval, and Brion Sian-Marik executed for the assassination of Geraldine Marik</headline>
+    <date>2364</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation founded</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik named Captain-General</headline>
+    <date>2396</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Andurien War begins, Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Andurien War ends, Duchy of Graham-Marik formed</headline>
+    <date>2404</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ares Conventions adopted</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Committee designated to oversee Peter Marik's campaigns</headline>
+    <date>2413</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War with Lyran Commonwealth begins</headline>
+    <date>2416</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Armistice with Lyran Commonwealth concluded, War Powers Act passed</headline>
+    <date>2418</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War with Lyran Commonwealth renewed, Joseph Stewart named Captain-General, Free Worlds League forces routed</headline>
+    <date>2420</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik assassinated</headline>
+    <date>2422</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War with Lyran Commonwealth renewed, Terrence Marik refuses Captain-Generalcy, War Powers Act and Parliamentary Committee disbanded, Terrence Marik named Captain-General</headline>
+    <date>2427</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik II named Captain-General</headline>
+    <date>2441</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik II elected Speaker of the House</headline>
+    <date>2446</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First BattleMechs deployed by cargo carrier</headline>
+    <date>2449</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Geralk Marik named Captain-General</headline>
+    <date>2452</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First BattleMechs deployed by combat drop</headline>
+    <date>2453</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First use of BattleMechs in combat</headline>
+    <date>2459</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League gains BattleMech technology</headline>
+    <date>2462</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First use of BattleMechs by Free Worlds League</headline>
+    <date>2470</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Terran Hegemony stalled by coup, Brion Marik named Captain- General</headline>
+    <date>2475</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treaty with Terran Hegemony signed</headline>
+    <date>2478</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First DropShip used</headline>
+    <date>2496</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brion Marik dies, Albert Marik named Captain-General</headline>
+    <date>2511</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Andurien War begins</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Deborah Cameron facilitates settlement with Capellan Confederation, Second Andurien War ends</headline>
+    <date>2531</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Andurien War begins</headline>
+    <date>2551</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron facilitates settlement with Capellan Confederation, Third Andurien War ends</headline>
+    <date>2556</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth agrees, under heavy Marik influence, to join the Star League</headline>
+    <date>2558</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League instigates economic crisis in Federated Suns</headline>
+    <date>2566</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns agrees to join the Star League</headline>
+    <date>2567</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treaty of Vega signed, Draconis Combine agrees to join the Star League</headline>
+    <date>2569</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League formed with signing of the Star League Accords</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League captures Canopus, Freebooter's War begins</headline>
+    <date>2584</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League gains control of Magistracy of Canopus, Freebooter's War ends</headline>
+    <date>2588</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Civil government on Canopus restored</headline>
+    <date>2604</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>NIA disbanded, SAFE formed</headline>
+    <date>2631</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Scourge of Death makes first appearance</headline>
+    <date>2667</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik estate bombed by Scourge of Death, Gerald Marik named Captain-General</headline>
+    <date>2678</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Puraj, D'mir, and Rajneesh Selaj implicated in bombing and sentenced to death, D'mir Selaj commits suicide</headline>
+    <date>2679</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Puraj and Rajneesh Selaj escape to Magistracy of Canopus</headline>
+    <date>2680</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Commonality separates from Principality of Regulus</headline>
+    <date>2681</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Principality of Gibson formed</headline>
+    <date>2699</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gerald Marik dies, Elise Marik named Captain-General and Council Lord, Purge of Free Worlds League begins</headline>
+    <date>2703</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik removed as Captain-General</headline>
+    <date>2728</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parliament dissolved and arrested, Proxy Parliament declares Oliver Marik Council Lord and Boris Marik Captain-General</headline>
+    <date>2729</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik captured</headline>
+    <date>2730</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik liberated, Treaty of Verona signed, Parliament reconvened, Bertram Marik named Captain-General and Council Lord</headline>
+    <date>2734</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Intelligence Act passed</headline>
+    <date>2735</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik named Captain-General</headline>
+    <date>2763</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>18 Periphery worlds secede from Star League</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terra liberated</headline>
+    <date>2779</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place, Resolution 288 passed, Rule of 75 repealed</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik declares himself First Lord of the Star League</headline>
+    <date>2787</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik dies, Thaddeus Marik named Captain-General</headline>
+    <date>2804</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends, Thaddeus Marik dies, Charles Marik named Captain- General, Jeannette Marik joins ComStar</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Oriente HPG destroyed, Free Worlds League Interdicted, ComStar War begins</headline>
+    <date>2837</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Interdiction lifted, ComStar War ends</headline>
+    <date>2838</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Oriente HPG rebuilt</headline>
+    <date>2841</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parliament votes to resume all military funding</headline>
+    <date>2842</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LCS Invincible misjumps</headline>
+    <date>2853</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Charles Marik dies, Gerald Marik named Captain-General</headline>
+    <date>2854</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gerald Marik dies, Philippa Marik named Captain-General</headline>
+    <date>2861</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Successor States meet in failed peace talks, Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Assassination attempt on Elizabeth Steiner fails</headline>
+    <date>2867</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Philippa Marik dies, Marie Marik named Captain-General</headline>
+    <date>2873</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Marik named Captain-General</headline>
+    <date>2880</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Marik dies</headline>
+    <date>2882</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lloyd Marik-Stanley named Captain-General, Elisabeth Marik takes control of non-military functions</headline>
+    <date>2883</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lloyd Marik-Stanley dies</headline>
+    <date>2884</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Home Defense Act passed</headline>
+    <date>2906</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Marik named Captain-General</headline>
+    <date>2917</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Marik dies, Paul Marik named Captain-General</headline>
+    <date>2944</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Paul Marik dies, Iris Marik named Captain-General, Brock Marik named Captain-General</headline>
+    <date>2947</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brock Marik dies, Thaddeus Marik II named Captain-General</headline>
+    <date>2948</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thaddeus Marik II dies, Stephan Marik named Captain-General</headline>
+    <date>2963</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Concord of Danais signed</headline>
+    <date>2966</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Special Resolution 512 passed</headline>
+    <date>2989</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stephan Marik dies, Janos Marik named Captain-General</headline>
+    <date>2991</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Accountability Edict issued, Logistics Act passed</headline>
+    <date>2996</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik joins ComStar</headline>
+    <date>3006</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik begins Marik Civil War</headline>
+    <date>3014</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik kills Joshua Wolf and is killed by Wolf's Dragoons</headline>
+    <date>3015</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Concord of Kapteyn signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War begins</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Compact formed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Duchy of Andurien secedes, Internal Emergency Act passed</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik leaves ComStar</headline>
+    <date>3031</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Rasalhague Republic formed</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Bomb kills Janos and Duggan Marik and wounds Thomas Marik, Duncan Marik named Captain-General</headline>
+    <date>3035</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik named Captain-General</headline>
+    <date>3036</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Addendum to the Incorporation passed, Duchy of Andurien regained</headline>
+    <date>3037</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>League General Accounting Office created</headline>
+    <date>3043</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Marik born</headline>
+    <date>3047</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik named Primus-in-Exile of Word of Blake, Free Worlds League signs HPG service contract with Word of Blake</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially formed</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Marik dies and is replaced with a double, Free Worlds League and Capellan Confederation invade Federated Commonwealth, Lyran Alliance formed</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik discovered to be a double, Invasion of Coventry</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>FWL</service>
+    <location></location>
+  </newsItem>
+</news>

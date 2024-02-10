@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+comstar_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Joshua Hoshiko appointed Minister of Communications</headline>
+    <date>2614</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Cassie DeBurke begins work on HPG theory</headline>
+    <date>2615</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First HPG message transmitted</headline>
+    <date>2630</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake born on Terra</headline>
+    <date>2739</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake graduates from University of Lambrecht</headline>
+    <date>2755</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron becomes First Lord of the Star League</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>18 Periphery worlds secede from the Star League</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris kills all known Camerons, seizes 95 Terran Hegemony worlds, and gains control of 70% of Terran Hegemony HPGs</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>SLDF begins march to Terra</headline>
+    <date>2772</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake returns to Terra</headline>
+    <date>2779</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake appointed Minister of Communications</headline>
+    <date>2780</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lords of the High Council adjourn for the last time</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Each Lord of the High Council individually gives Jerome Blake responsibility for the reconstruction of Terra</headline>
+    <date>2782</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Court of the Star League sealed</headline>
+    <date>2783</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>80% of SLDF undertakes Operation Exodus, the remainder pledging assistance to the reconstruction effort. First Circuit reestablished</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Conrad Toyama appointed Chief Administrator of Dieron HPG, ComStar Letter of Credit instituted</headline>
+    <date>2785</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins when Minoru Kurita declares himself First Lord of the Star League. Department of Communications changes name to ComStar, Operation Silver Shield approved and begun</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Neutrality of ComStar outlined by Communications Protocol of 2787</headline>
+    <date>2787</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Silver Shield amended to include conquest of Terra only. All HPGs shut down, military portion of Operation Silver Shield begins, ComStar takes Terra</headline>
+    <date>2788</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mercenary Review Board formed</headline>
+    <date>2789</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar Archives Branch created</headline>
+    <date>2791</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minoru Kurita assassinated, Kentares IV massacre</headline>
+    <date>2796</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar becomes profitable</headline>
+    <date>2802</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ROM formed</headline>
+    <date>2811</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake dies, Conrad Toyama named Prime Administrator of ComStar, ROM purge initiated, ComStar Order formed</headline>
+    <date>2819</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Conrad Toyama visits House leaders and raises HPG rates</headline>
+    <date>2820</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends, Jeannette Marik joins ComStar and begins leaking information to House Marik</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House Steiner taxes ComStar and suffers Interdiction, ComStar logo created</headline>
+    <date>2823</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taxes and Interdiction lifted, Conrad Toyama begins recruitment trip in the Periphery</headline>
+    <date>2824</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minnesota Tribe attacks Svelvik and Trondheim</headline>
+    <date>2825</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar News Bureau formed</headline>
+    <date>2826</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Charles Marik orders Oriente HPG station destroyed, killing Jeannette Marik, Free Worlds League suffers Interdiction, ComStar War begins, Conrad Toyama dies and is named a saint, Raymond Karpov named Primus</headline>
+    <date>2837</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik Interdiction lifted, ComStar War ends, Organizational Edict 3056 expands ROM, Michelle Dupreas resigns and is assassinated, Janice Laidlaw appointed head of ROM, Operation Holy Shroud begins</headline>
+    <date>2838</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Holy Shroud ends</headline>
+    <date>2843</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Doctrinal Edict of 2861 formalizes process of naming Primus</headline>
+    <date>2861</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raymond Karpov steps down, Andrea Marteen named Primus</headline>
+    <date>2875</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ROM stages "Black December" incident</headline>
+    <date>2877</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raymond Karpov dies</headline>
+    <date>2880</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>HPG transmisson rates raised</headline>
+    <date>2882</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Andrea Marteen dies, Dwight Kurstin named Primus, First Circuit revolts and leaves Terra, "Witch-Hunt" transmission sent, Terra suffers Interdiction, Court of the Star League unsealed, Operation Winged Crusader begins</headline>
+    <date>2901</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Dwight Kurstin assassinated, Gregori Hartford named Primus, ComStar Civil War covered up by ROM, Court of the Star League resealed</headline>
+    <date>2902</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gregori Hartford dies, Kari Marshall named Primus</headline>
+    <date>2910</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kari Marshall tours Periphery, Periphery communications link begun</headline>
+    <date>2920</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kari Marshall dies, Hollings York named Primus, Necess Kurita joins ComStar and is kidnapped by Hugai Kurita, ComStar hires mercenaries and threatens the Draconis Combine, Necess Kurita released</headline>
+    <date>2930</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar Guards and Militia formed</headline>
+    <date>2933</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hollings York proposes abolishment of ROM and is assassinated, Adrienne Sims named Primus, Hollings York named a saint</headline>
+    <date>2947</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adrienne Sims begins having nightmares about an invasion from beyond the Periphery, Explorer Corps formed</headline>
+    <date>2959</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Explorer Corps ships enter the Periphery</headline>
+    <date>2961</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adrienne Sims dies, Yin Takami named Primus, the Tripitz Affair takes place, Operation Holy Shroud II begins</headline>
+    <date>2979</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Circuit reorganized to include Tharkad, Atreus, Sian and New Avalon</headline>
+    <date>2988</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Yin Takami dies, Allen Rusenstein named Primus</headline>
+    <date>2994</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar begins extensive recruitment in the Periphery</headline>
+    <date>3000</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar begins supplying bandit kings</headline>
+    <date>3001</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>The Jolly Roger Affair</headline>
+    <date>3004</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Wolf's Dragoons appear in the Federated Suns</headline>
+    <date>3005</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik joins ComStar, Allen Rusenstein resigns, Julian Tiepolo named Primus</headline>
+    <date>3006</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Wolf's Dragoons disappear and reappear refitted</headline>
+    <date>3009</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik Civil War instigated</headline>
+    <date>3010</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik declares himself Captain-General, Marik Civil War begins</headline>
+    <date>3014</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik breaks Wolf's Dragoons contract and kills Joshua Wolf, Wolf's Dragoons attack New Delos and kill Anton Marik, Precentor ROM Vesar Kristofur excommunicated, NAIS created</headline>
+    <date>3015</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Wolf's Dragoons disappear and once again reappear refitted</headline>
+    <date>3019</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Katrina Steiner sends Peace Proposal to all Houses</headline>
+    <date>3020</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated-Commonwealth Alliance Document signed, Concord of Kapteyn signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gray Death Legion discovers Helm Library Core, Wolf's Dragoons take An Ting HPG, Hanse Davion and Melissa Steiner marry, Fourth Succession War begins</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House Davion framed for destruction of Sarna HPG and suffers Interdiction, ComStar covertly attacks NAIS, Julian Tiepolo dies, Myndo Waterly named Primus, ComStar 'Mechs stationed at House Davion HPGs, Interdiction lifted</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Operation Rosebud initiated</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House Kurita recognizes the Free Rasalhague Republic, Operation Rosebud ends, Anastasius Focht joins ComStar, Operation Flush begins</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Readjustment Act of 3035 passed</headline>
+    <date>3035</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar 'Mechs stationed at House Liao HPGs</headline>
+    <date>3038</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 takes place</headline>
+    <date>3039</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar 'Mechs stationed at House Steiner HPGs</headline>
+    <date>3041</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Flush ends</headline>
+    <date>3044</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Explorer Corps vessel Outbound Light encounters Clan forces</headline>
+    <date>3048</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Revival takes place, contact established with the Clans</headline>
+    <date>3049</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anastasius Focht appointed ambassador to the Clans, Clans invade Inner Sphere, Leo Showers killed</headline>
+    <date>3050</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ulric Kerensky voted IlKhan, invasion resumes, Battle of Tukayyid fought, Operation Scorpion takes place, Myndo Waterly assassinated, Sharilar Mori named Primus of ComStar, Demona Aziz rebels and forms the Word of Blake. New service contracts signed with each House but Marik, Thomas Marik named Primus-in-Exile of Word of Blake, Word of Blake signs contract with House Marik</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Peace Summit takes place, ComStar begins announcing troop movements, Mercenary Review and Bonding Commission replaces Mercenary Review Board, University of Blake begins construction</headline>
+    <date>3053</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar opens vaults of history to public access</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>The Word of Blake takes Terra, Sun-Tzu Liao kills Demona Aziz, Cameron St. Jamais named head of Toyama Sect</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>NWO</service>
+    <location></location>
+  </newsItem>
+</news>

@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<news>
+  <event>
+    <year>2015</year>
+    <description>Alliance World Parliament formed</description>
+  </event>
+  <event>
+    <year>2177</year>
+    <description>Tikonov settled</description>
+  </event>
+  <event>
+    <year>2182</year>
+    <description>Liao "cleansing actions" begin</description>
+  </event>
+  <event>
+    <year>2188</year>
+    <description>Elias Liao leaves Terra, cleansing actions end</description>
+  </event>
+  <event>
+    <year>2189</year>
+    <description>Cynthiana settled</description>
+  </event>
+  <event>
+    <year>2193</year>
+    <description>Chesterton Trade League founded</description>
+  </event>
+  <event>
+    <year>2202</year>
+    <description>Elias Liao dies, Cynthiana's name changed to Liao, Victor Liao named Governor of Liao</description>
+  </event>
+  <event>
+    <year>2225</year>
+    <description>Korvin Doctrine established</description>
+  </event>
+  <event>
+    <year>2235</year>
+    <description>War of Independence begins</description>
+  </event>
+  <event>
+    <year>2237</year>
+    <description>Alliance Expansionist Party ousted from power</description>
+  </event>
+  <event>
+    <year>2240</year>
+    <description>Victor Liao dies, Irenna Liao elected President of Liao</description>
+  </event>
+  <event>
+    <year>2242</year>
+    <description>Liberal Party makes Demarcation Declaration</description>
+  </event>
+  <event>
+    <year>2243</year>
+    <description>Tikonov Grand Union founded</description>
+  </event>
+  <event>
+    <year>2245</year>
+    <description>St. Ives Mercantile Association founded</description>
+  </event>
+  <event>
+    <year>2250</year>
+    <description>Sian Supremacy founded</description>
+  </event>
+  <event>
+    <year>2270</year>
+    <description>Capellan Hegemony founded, Capellan Renaissance begins</description>
+  </event>
+  <event>
+    <year>2271</year>
+    <description>Free Worlds League formed</description>
+  </event>
+  <event>
+    <year>2305</year>
+    <description>Capellan-Supremacy War begins</description>
+  </event>
+  <event>
+    <year>2306</year>
+    <description>Free Worlds League allies with Capellan Hegemony</description>
+  </event>
+  <event>
+    <year>2308</year>
+    <description>Arboris secedes, Free Worlds League withdraws its alliance</description>
+  </event>
+  <event>
+    <year>2309</year>
+    <description>Capellan-Supremacy War ends, Paula Aris commits suicide</description>
+  </event>
+  <event>
+    <year>2310</year>
+    <description>Capellan Commonality formed</description>
+  </event>
+  <event>
+    <year>2315</year>
+    <description>Duchy of Liao formed, Terran Hegemony formed</description>
+  </event>
+  <event>
+    <year>2317</year>
+    <description>Federated Suns formed</description>
+  </event>
+  <event>
+    <year>2319</year>
+    <description>Draconis Combine formed</description>
+  </event>
+  <event>
+    <year>2341</year>
+    <description>Lyran Commonwealth formed</description>
+  </event>
+  <event>
+    <year>2365</year>
+    <description>Selec Tucas dies, Aris Crisis begins</description>
+  </event>
+  <event>
+    <year>2366</year>
+    <description>Free Worlds League begins occupation of Capellan border worlds, Capellan Confederation formed, Franco Liao named first Chancellor</description>
+  </event>
+  <event>
+    <year>2367</year>
+    <description>Aris Crisis ends, Federated Suns occupies Capella Prime, Franco Liao orders orbital bombardment of Capella Prime, Capellan Confederation capital moves to Sian</description>
+  </event>
+  <event>
+    <year>2368</year>
+    <description>Prefectorate established</description>
+  </event>
+  <event>
+    <year>2395</year>
+    <description>Franco Liao resigns, Kurnath Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2396</year>
+    <description>Maskirovka created</description>
+  </event>
+  <event>
+    <year>2398</year>
+    <description>War on Free Worlds League declared, Age of War begins</description>
+  </event>
+  <event>
+    <year>2399</year>
+    <description>Kurnath Liao killed, Aleisha Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2404</year>
+    <description>War with Free Worlds League ends</description>
+  </event>
+  <event>
+    <year>2412</year>
+    <description>Tintavel Massacre, Ares Conventions adopted</description>
+  </event>
+  <event>
+    <year>2415</year>
+    <description>Aleisha Liao dies, Arden Baxter named Chancellor, reduction of military ordered</description>
+  </event>
+  <event>
+    <year>2418</year>
+    <description>Rim War begins</description>
+  </event>
+  <event>
+    <year>2422</year>
+    <description>Rim War ends</description>
+  </event>
+  <event>
+    <year>2425</year>
+    <description>Arden Baxter assassinated, Stephen Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2450</year>
+    <description>Stephen Liao dies, Duncan Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2451</year>
+    <description>Time of Tribulation begins</description>
+  </event>
+  <event>
+    <year>2452</year>
+    <description>Duncan Liao commits suicide, Jasmine Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2455</year>
+    <description>Limit on military rank instituted</description>
+  </event>
+  <event>
+    <year>2462</year>
+    <description>Xanthe Operation takes place</description>
+  </event>
+  <event>
+    <year>2477</year>
+    <description>Jasmine Liao dies, Raxal Liao named Chancellor, Edmund Salindar named Regent</description>
+  </event>
+  <event>
+    <year>2480</year>
+    <description>Decree of Prime Extension issued</description>
+  </event>
+  <event>
+    <year>2482</year>
+    <description>Raxal Liao comes of age and abdicates, Hendrik Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2505</year>
+    <description>Order of Lorix formed</description>
+  </event>
+  <event>
+    <year>2512</year>
+    <description>Decree of Retension issued</description>
+  </event>
+  <event>
+    <year>2520</year>
+    <description>Hendrik Liao resigns, Kalvin Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2521</year>
+    <description>Court of Philosophical Inquiry established, Hendrik Liao executed</description>
+  </event>
+  <event>
+    <year>2523</year>
+    <description>Decimation of House of Scions</description>
+  </event>
+  <event>
+    <year>2524</year>
+    <description>House of Scions closed</description>
+  </event>
+  <event>
+    <year>2527</year>
+    <description>Free Worlds League ambassador expelled</description>
+  </event>
+  <event>
+    <year>2528</year>
+    <description>Second Andurien War begins</description>
+  </event>
+  <event>
+    <year>2530</year>
+    <description>Kalvin Liao assassinated, Mica Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2531</year>
+    <description>Second Andurien War ends</description>
+  </event>
+  <event>
+    <year>2542</year>
+    <description>Mica Liao dies, Salicia Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2546</year>
+    <description>Bell Accord signed</description>
+  </event>
+  <event>
+    <year>2550</year>
+    <description>Sarna Mandate developed</description>
+  </event>
+  <event>
+    <year>2551</year>
+    <description>Salicia Liao dies, Terrence Liao named Chancellor, Third Andurien War begins</description>
+  </event>
+  <event>
+    <year>2556</year>
+    <description>Third Andurien War ends, Capellan Confederation joins Terran League</description>
+  </event>
+  <event>
+    <year>2571</year>
+    <description>Star League Articles signed, Star League founded, Terrence Liao dies, Ursula Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2584</year>
+    <description>Freebooters War begins</description>
+  </event>
+  <event>
+    <year>2588</year>
+    <description>Freebooters War ends</description>
+  </event>
+  <event>
+    <year>2598</year>
+    <description>Decree of Succession issued</description>
+  </event>
+  <event>
+    <year>2599</year>
+    <description>Ursula Liao dies, Normann Aris named Chancellor</description>
+  </event>
+  <event>
+    <year>2611</year>
+    <description>Normann Aris dies, Sundermann Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2663</year>
+    <description>Sundermann Liao dies, Androsar Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2711</year>
+    <description>Decree of Expulsion issued</description>
+  </event>
+  <event>
+    <year>2719</year>
+    <description>Androsar Liao dies, Warex Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2766</year>
+    <description>Amaris coup</description>
+  </event>
+  <event>
+    <year>2781</year>
+    <description>Star League falls</description>
+  </event>
+  <event>
+    <year>2784</year>
+    <description>Operation Exodus takes place</description>
+  </event>
+  <event>
+    <year>2786</year>
+    <description>First Succession War begins</description>
+  </event>
+  <event>
+    <year>2789</year>
+    <description>New Delos Massacre</description>
+  </event>
+  <event>
+    <year>2795</year>
+    <description>Barbara Liao dies, Sandol Quinn named Chancellor</description>
+  </event>
+  <event>
+    <year>2801</year>
+    <description>Sandol Quinn resigns, Ilsa Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2808</year>
+    <description>Ilsa Liao renounces claim to First Lordship</description>
+  </event>
+  <event>
+    <year>2818</year>
+    <description>Capellan Science Foundation founded</description>
+  </event>
+  <event>
+    <year>2821</year>
+    <description>First Succession War ends</description>
+  </event>
+  <event>
+    <year>2828</year>
+    <description>Ilsa Liao killed, Laurelli Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2830</year>
+    <description>Second Succession War begins</description>
+  </event>
+  <event>
+    <year>2837</year>
+    <description>ComStar imposes interdict on Free Worlds League</description>
+  </event>
+  <event>
+    <year>2840</year>
+    <description>Chesterton Decree issued</description>
+  </event>
+  <event>
+    <year>2860</year>
+    <description>Laurelli Liao dies, Dainmar Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2864</year>
+    <description>Second Succession War ends</description>
+  </event>
+  <event>
+    <year>2866</year>
+    <description>Third Succession War begins, Dainmar Liao resigns, Otto Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2867</year>
+    <description>Dainmar Liao commits suicide</description>
+  </event>
+  <event>
+    <year>2888</year>
+    <description>Sian University founded</description>
+  </event>
+  <event>
+    <year>2917</year>
+    <description>Otto Liao resigns, Merlin Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2942</year>
+    <description>Merlin Liao dies, Tarlak Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2950</year>
+    <description>Tarlak Liao assassinated, Ingrid Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2964</year>
+    <description>Decree of Martial Unity issued</description>
+  </event>
+  <event>
+    <year>2980</year>
+    <description>Ingrid Liao dies, Tormax Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>2988</year>
+    <description>Death Commandos formed</description>
+  </event>
+  <event>
+    <year>2990</year>
+    <description>Tormax Liao deposed, Maximilian Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>3005</year>
+    <description>Ministry of Development reorganized</description>
+  </event>
+  <event>
+    <year>3014</year>
+    <description>Marik Civil War</description>
+  </event>
+  <event>
+    <year>3020</year>
+    <description>Contact with Michael Hasek-Davion made</description>
+  </event>
+  <event>
+    <year>3022</year>
+    <description>McCarron's War begins, Concord of Kapteyn signed</description>
+  </event>
+  <event>
+    <year>3025</year>
+    <description>Operation Doppelganger takes place, McCarron's War ends, Third Succession War ends</description>
+  </event>
+  <event>
+    <year>3028</year>
+    <description>Fourth Succession War begins, Tormana Liao captured, Northwind Agreement takes effect, Operation Riposte takes place</description>
+  </event>
+  <event>
+    <year>3029</year>
+    <description>Tikonov Free Republic formed, Operation Intruders Communion takes place, St. Ives Compact formed</description>
+  </event>
+  <event>
+    <year>3030</year>
+    <description>Fourth Succession War ends</description>
+  </event>
+  <event>
+    <year>3031</year>
+    <description>Capellan Confederation attacked by Andurien/Canopus alliance</description>
+  </event>
+  <event>
+    <year>3034</year>
+    <description>Free Rasalhague Republic formed</description>
+  </event>
+  <event>
+    <year>3036</year>
+    <description>Maximilian Liao dies, Romano Liao named Chancellor</description>
+  </event>
+  <event>
+    <year>3052</year>
+    <description>Romano Liao assassinated, Sun-Tzu Liao named Chancellor, Sun-Tzu Liao betrothed to Isis Marik</description>
+  </event>
+  <event>
+    <year>3056</year>
+    <description>Federated Commonwealth officially formed</description>
+  </event>
+  <event>
+    <year>3057</year>
+    <description>Capellan Confederation and Free Worlds League invade Federated Commonwealth, Isis Marik moves to Sian, Lyran Alliance formed</description>
+  </event>
+  <event>
+    <year>3058</year>
+    <description>Invasion of Coventry</description>
+  </event>
+  <event>
+    <year>3060</year>
+    <description>Capellan / St. Ives Civil War begins</description>
+  </event>
+</news>

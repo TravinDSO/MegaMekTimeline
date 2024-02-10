@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+davion_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>New Avalon settled</headline>
+    <date>2213</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Grain Rebellion</headline>
+    <date>2237</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Covenant of New Avalon ratified, Jason Hasek voted first Prime Minister</headline>
+    <date>2239</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Covenant of New Avalon ratified, Sandra Lockhart voted first Prime Minister-for-life</headline>
+    <date>2255</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League formed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First New Avalon-built freighter dedicated</headline>
+    <date>2293</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Crucis Pact signed, Lucien Davion named first president of Federated Suns</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine formed; Department of Military Intelligence formed</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lucien Davion retires, Charles Davion named president, Lucien Davion dies</headline>
+    <date>2332</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Charles Davion dies, Reynard Davion named president</headline>
+    <date>2340</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth formed</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Acala Pact signed</headline>
+    <date>2345</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Almach Accord signed</headline>
+    <date>2346</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation formed</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reynard Davion dies, Etien Davion named president</headline>
+    <date>2371</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Board of Magistrates formed</headline>
+    <date>2373</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Etien Davion commits suicide, Paul Davion named president</headline>
+    <date>2378</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Paul Davion dies, Marie Davion named president</headline>
+    <date>2394</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Novaya Zemlya incident</headline>
+    <date>2399</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marie Davion dies, Edmund Davion named president</headline>
+    <date>2402</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ares Conventions signed</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Edmund Davion dies, Edward Davion named president</headline>
+    <date>2415</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>November Conspiracy begins, Edward Davion assassinated, Simon Davion named president; Principalities formed</headline>
+    <date>2417</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Davion named first Prince of the Federated Suns</headline>
+    <date>2418</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns gains plans for BattleMechs, Simon Davion dies, James Davion named Prince</headline>
+    <date>2457</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Davion assassinated, Ellen Davion named Princess</headline>
+    <date>2467</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Act of Succession passed</headline>
+    <date>2473</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ellen Davion retires, William Davion named Prince</headline>
+    <date>2502</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ellen Davion dies</headline>
+    <date>2510</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>William Davion dies, Alexander Davion named Prince; Cassandra Varnay, David Varnay, Nikolai Rostov, Laura Davion, and Carmen Davion named Regents</headline>
+    <date>2512</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treason Trials begin</headline>
+    <date>2518</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Treason Trials end</headline>
+    <date>2520</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Davion Civil War begins</headline>
+    <date>2524</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Davion Civil War ends, Principalities disbanded</headline>
+    <date>2537</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Avalon Accords signed</headline>
+    <date>2567</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League formed</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War begins</headline>
+    <date>2577</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War ends</headline>
+    <date>2597</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alexander Davion dies, Zane Davion named Prince</headline>
+    <date>2600</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Zane Davion dies, Sarah Davion named Prince</headline>
+    <date>2659</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sarah Davion dies, Samuel Davion named Princess</headline>
+    <date>2681</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Davion dies, Roger Davion named Prince</headline>
+    <date>2696</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Roger Davion dies, Joseph Davion named Prince</headline>
+    <date>2703</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of Davion Succession begins</headline>
+    <date>2728</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of Davion Succession ends, Joseph Davion dies in combat, Richard Davion named Prince</headline>
+    <date>2729</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Preparedness Act passed</headline>
+    <date>2735</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Davion dies, John Davion named Prince</headline>
+    <date>2745</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron dies</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Border War begins</headline>
+    <date>2760</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Border War ends, Executive Order 156 issued</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League disbanded</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Towne Debacle</headline>
+    <date>2785</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War Zone Actions become law</headline>
+    <date>2787</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kentares IV Massacre</headline>
+    <date>2796</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>John Davion assassinated, Paul Davion named Prince</headline>
+    <date>2797</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reformation begins; Ministry of Information, Intelligence, and Operations formed</headline>
+    <date>2798</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reformation ends</headline>
+    <date>2801</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Halder-Davion appointed Field Marshal</headline>
+    <date>2825</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Colonel Damien Hasek named Duke of New Syrtis</headline>
+    <date>2829</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Paul Davion dies</headline>
+    <date>2842</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Davion named Prince</headline>
+    <date>2843</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Prime Marshal Peter Davion refuses to lead rebellion</headline>
+    <date>2846</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marathon Offensive begins</headline>
+    <date>2854</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Raid takes place</headline>
+    <date>2861</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins, Operation Pendragon begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Cutthroat Fiasco</headline>
+    <date>2870</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Davion dies, Carl Davion named Prince</headline>
+    <date>2873</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Carl Davion dies in combat, Melissa Davion named Princess, Reformation of Federated Suns military takes place</headline>
+    <date>2876</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Melissa Davion dies, Joseph Davion II named Prince</headline>
+    <date>2892</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Armistice of Van Diemen IV signed</headline>
+    <date>2905</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Davion II abdicates, Peter Davion II named Prince</headline>
+    <date>2931</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Davion II dies</headline>
+    <date>2935</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Great Lee Turkey Shoot, Warrior's Cabal formed</headline>
+    <date>2952</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Davion II assassinated, Andrew Davion named Prince</headline>
+    <date>2961</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Andrew Davion dies, Ian Davion named Prince</headline>
+    <date>2999</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Hasek marries Marie Davion-St. Claire</headline>
+    <date>3003</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Davion killed, Hanse Davion named Prince, Michael Hasek-Davion named Duke of New Syrtis</headline>
+    <date>3013</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Avalon Institute of Science formed</headline>
+    <date>3015</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>McCarron's War begins, Federated-Commonwealth Alliance Document signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>McCarron's War ends, Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Galahad 3026 takes place</headline>
+    <date>3026</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Galahad 3027 takes place</headline>
+    <date>3027</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hanse Davion marries Melissa Steiner, Fourth Succession War begins, Federated-Commonwealth unofficially formed</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Compact formed, Tikonov Free Republic formed, Michael Hasek-Davion killed, Federated Suns interdicted by ComStar</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Sarna March created</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov Free Republic absorbed</headline>
+    <date>3031</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Rasalhague Republic formed, Skye Crisis</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 begins</headline>
+    <date>3039</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 ends</headline>
+    <date>3040</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Armed Forces of the Federated Commonwealth created</headline>
+    <date>3041</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clans invade the Inner Sphere</headline>
+    <date>3050</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Battle of Tukayyid, Hanse Davion dies</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Melissa Steiner Davion assassinated</headline>
+    <date>3055</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ryan Steiner assassinated, Federated Commonwealth officially formed, Archon-Prince Victor Steiner-Davion takes command of Federated Commonwealth</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Alliance formed, Capellan Confederation and Free Worlds League invade Federated Commonwealth</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Coventry</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>FSS</service>
+    <location></location>
+  </newsItem>
+</news>

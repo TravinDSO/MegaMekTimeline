@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+periphery_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Tikonov Accords signed, Oleg Tikonov assassinated, Second Soviet Civil War begins</headline>
+    <date>2011</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Soviet Civil War ends</headline>
+    <date>2014</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance formed</headline>
+    <date>2086</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Kearny/Fuchida experiments validated</headline>
+    <date>2102</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Deimos Project begun</headline>
+    <date>2103</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Pathfinder makes first manned survey of Tau Ceti IV</headline>
+    <date>2108</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Research outpost established on New Earth</headline>
+    <date>2112</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First permanent interstellar colony established on New Earth</headline>
+    <date>2116</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Colonization Procedure Referendum passed</headline>
+    <date>2128</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance Grand Survey of Inhabited Planets conducted</headline>
+    <date>2235</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Freedom declares itself independent, Outer Reaches Rebellion begins</headline>
+    <date>2236</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liberal Party displaces Expansionist Party</headline>
+    <date>2237</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outer Reaches Rebellion ends</headline>
+    <date>2238</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance releases Demarcation Declaration</headline>
+    <date>2242</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Worlds Republic formed, Calderon Flotilla leaves Aix-La-Chappelle</headline>
+    <date>2250</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurus colonized</headline>
+    <date>2253</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samantha Calderon dies, Timothy Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2268</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League formed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hector Rowe commits suicide, Maxwell Rowe named First Consul of the Rim Worlds Republic</headline>
+    <date>2305</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Megaris system settled</headline>
+    <date>2310</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samantha system settled</headline>
+    <date>2312</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance collapses</headline>
+    <date>2314</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Renfield system settled</headline>
+    <date>2316</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns formed, Cyrton system settled</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine formed</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ishtar system settled</headline>
+    <date>2320</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Timothy Calderon dies, Sandra Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2330</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Calderon named Protector of the Taurian Homeworlds, Taurian Concordat formed</headline>
+    <date>2335</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth formed, Arabella Rowe named First Consul</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation formed</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Arabella Rowe dies, Michael Durant named First Consul</headline>
+    <date>2376</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Calderon dies, Daniel Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2387</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Daniel Calderon dies, Sigur Fonn named Regent-Protector of the Taurian Homeworlds</headline>
+    <date>2390</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ares Conventions signed</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Julius Avellar withdraws to Alpheratz</headline>
+    <date>2413</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outworlds Alliance formed</headline>
+    <date>2415</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outworlds Alliance Charter ratified</headline>
+    <date>2417</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMech invented</headline>
+    <date>2439</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First full-scale use of BattleMechs</headline>
+    <date>2459</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Heather Durant dies, Terens Amaris named First Consul</headline>
+    <date>2463</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Worlds Republic becomes hereditary Amaris holding</headline>
+    <date>2488</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Omsol Accords signed</headline>
+    <date>2511</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ariana's War takes place</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kotsandra Centrella founds the Magistracy of Canopus</headline>
+    <date>2530</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Magistracy of Canopus' Constitution of Magistracy Free States established</headline>
+    <date>2531</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Coranna Centrella named Magestrix</headline>
+    <date>2570</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League formed</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League Directive 21 instituted, Santiago Massacre</headline>
+    <date>2572</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Malagrotta Affair, Rim Worlds Republic Universal Act of Loyalty passed</headline>
+    <date>2573</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Pollux Proclamation issued, Rim Worlds Republic Manchester Directive issued, Reunification War begins</headline>
+    <date>2575</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Case Amber adopted</headline>
+    <date>2576</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League forces orbitally bombard Robsart, Consadine Mission launched, Operation Mailed Fist begins</headline>
+    <date>2581</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Case Black enacted, Amalthea Kincaid assassinated</headline>
+    <date>2583</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peace of Cerberus negotiated</headline>
+    <date>2585</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Grigori Avellar dies, Barton Avellar named Parliamentary President</headline>
+    <date>2587</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mitchell Calderon dies, Marantha Calderon named Protector of the Taurian Homeworlds, Magistracy of Canopus is conquered, Melissa Humphreys appointed Military Governor of the Magistracy of Canopus</headline>
+    <date>2588</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian Concordat surrenders, Marantha Calderon commits suicide, Henry Calderon named Protector of the Taurian Homeworlds, Rim Provisional Government surrenders</headline>
+    <date>2596</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gregory Amaris assassinated, Richard Amaris named President of the Rim Worlds Republic</headline>
+    <date>2599</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Barton Avellar assassinated, Rodrigo Avellar named Parliamentary President</headline>
+    <date>2600</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Home Rule reestablished in the Magistracy of Canopus, Rinalla Centrella named Magestrix</headline>
+    <date>2604</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Last Star League occupation forces leave Taurian Concordat</headline>
+    <date>2605</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Last Star League occupation forces leave Outworlds Alliance</headline>
+    <date>2607</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rinalla Centrella abdicates, Carla Centrella named Magestrix</headline>
+    <date>2612</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Amaris dies, Amanda Amaris named President</headline>
+    <date>2619</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amanda Amaris assassinated, Jeffrey Amaris named President</headline>
+    <date>2620</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Democratic elections restored in the Rim Worlds Republic, Jeffrey Amaris abdicates, Selanta Amaris named President</headline>
+    <date>2622</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League adopts universal currency</headline>
+    <date>2623</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rodrigo Avellar dies, Caryn Avellar named Parliamentary President</headline>
+    <date>2628</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Henry Calderon abdicates, Consuelo Calderon named Regent-Protector of the Taurian Homeworlds</headline>
+    <date>2629</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Caryn Avellar removed, Peter Avellar named Parliamentary President</headline>
+    <date>2634</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Avellar killed</headline>
+    <date>2640</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adolfo Avellar named Parliamentary President</headline>
+    <date>2642</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Selanta Amaris undergoes cancer treatment, Tadeo Amaris named Regent</headline>
+    <date>2649</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council Edict of 2650 issued, Consuelo Calderon claims right of succession in Taurian Concordat</headline>
+    <date>2650</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New taxes levied against territorial states</headline>
+    <date>2651</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Carla Centrella abdicates, Celine Centrella named Magestrix</headline>
+    <date>2654</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Celine Centrella dies, Gorraine Centrella named Magestrix</headline>
+    <date>2656</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Consuelo Calderon named Second Lord</headline>
+    <date>2663</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Consuelo Calderon dies, Reginald Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2671</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian Concordat's Education Reform Act passed</headline>
+    <date>2678</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gorraine Centrella dies, Kim Centrella named Magestrix</headline>
+    <date>2680</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reginald Calderon retires, Jentarra Calderon named Protector of the Taurian Homeworlds, Adolfo Avellar dies, Davis Avellar named Parliamentary President, Selanta Amaris dies, Carl Siever named President</headline>
+    <date>2687</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jentarra Calderon removed, Brandon Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2694</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kim Centrella retires, Jehan Centrella named Magestrix</headline>
+    <date>2702</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Davis Avellar retires, Heather Avellar named Regent of the Outworlds Alliance</headline>
+    <date>2706</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Beatrice Avellar named Parliamentary President</headline>
+    <date>2709</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris born</headline>
+    <date>2717</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brandon Calderon retires, Hampton Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2725</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hampton Calderon assassinated, Nicoletta Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2726</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jehan Centrella retires, Vanura Centrella named Magestrix</headline>
+    <date>2738</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron dies, Richard Cameron named First Lord of the Star League, Aleksandr Kerensky named Regent</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Vanura Centrella dies, Janina Centrella named Magestrix</headline>
+    <date>2760</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron comes of age, Executive Order 156 issued and withdrawn</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taxation Edict passed</headline>
+    <date>2763</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Vandenberg Crisis, Beatrice Avellar dies, Allyce Avellar named Parliamentary President</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris-Kerensky Civil War begins, Rim Worlds Republic invaded</headline>
+    <date>2767</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Worlds Republic destroyed</headline>
+    <date>2769</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Allyce Avellar removed, David Avellar named Parliamentary President</headline>
+    <date>2772</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris executed</headline>
+    <date>2779</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League disbanded</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins, Magistracy of Canopus' declaration of independence issued</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian-Canopian War begins</headline>
+    <date>2813</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian-Canopian War ends</headline>
+    <date>2814</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ignatius Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2842</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian Concordat's Constitutional Crisis of 2860</headline>
+    <date>2860</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Some Canopian Elector's positions become hereditary</headline>
+    <date>2955</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Eugenio Rosario killed</headline>
+    <date>2964</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tamara Centrella dies, Kyalla Centrella named Magestrix</headline>
+    <date>3012</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Neil Avellar II named Parliamentary President</headline>
+    <date>3015</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>3017</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Outworlds Alliance Educational Exchange Program begins</headline>
+    <date>3020</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War begins</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Compact formed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Duchy of Andurien secedes from Free Worlds League, Andurien-Canopian invasion of the Capellan Confederation begins</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Neil Avellar II marries Rebecca DeSanders, Free Rasalhague Republic formed</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kyalla Centrella removed, Emma Centrella named Magestrix</headline>
+    <date>3040</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clans invade the Periphery</headline>
+    <date>3049</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially formed</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Alliance formed</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>ROH</service>
+    <location></location>
+  </newsItem>
+</news>

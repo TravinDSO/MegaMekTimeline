@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+liao_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Alliance World Parliament formed</headline>
+    <date>2015</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov settled</headline>
+    <date>2177</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liao "cleansing actions" begin</headline>
+    <date>2182</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elias Liao leaves Terra, cleansing actions end</headline>
+    <date>2188</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Cynthiana settled</headline>
+    <date>2189</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Chesterton Trade League founded</headline>
+    <date>2193</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elias Liao dies, Cynthiana's name changed to Liao, Victor Liao named Governor of Liao</headline>
+    <date>2202</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Korvin Doctrine established</headline>
+    <date>2225</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of Independence begins</headline>
+    <date>2235</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance Expansionist Party ousted from power</headline>
+    <date>2237</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Victor Liao dies, Irenna Liao elected President of Liao</headline>
+    <date>2240</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liberal Party makes Demarcation Declaration</headline>
+    <date>2242</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov Grand Union founded</headline>
+    <date>2243</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Mercantile Association founded</headline>
+    <date>2245</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sian Supremacy founded</headline>
+    <date>2250</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Hegemony founded, Capellan Renaissance begins</headline>
+    <date>2270</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League formed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan-Supremacy War begins</headline>
+    <date>2305</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League allies with Capellan Hegemony</headline>
+    <date>2306</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Arboris secedes, Free Worlds League withdraws its alliance</headline>
+    <date>2308</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan-Supremacy War ends, Paula Aris commits suicide</headline>
+    <date>2309</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Commonality formed</headline>
+    <date>2310</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Duchy of Liao formed, Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns formed</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine formed</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth formed</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Selec Tucas dies, Aris Crisis begins</headline>
+    <date>2365</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League begins occupation of Capellan border worlds, Capellan Confederation formed, Franco Liao named first Chancellor</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aris Crisis ends, Federated Suns occupies Capella Prime, Franco Liao orders orbital bombardment of Capella Prime, Capellan Confederation capital moves to Sian</headline>
+    <date>2367</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Prefectorate established</headline>
+    <date>2368</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Franco Liao resigns, Kurnath Liao named Chancellor</headline>
+    <date>2395</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Maskirovka created</headline>
+    <date>2396</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War on Free Worlds League declared, Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kurnath Liao killed, Aleisha Liao named Chancellor</headline>
+    <date>2399</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War with Free Worlds League ends</headline>
+    <date>2404</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tintavel Massacre, Ares Conventions adopted</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aleisha Liao dies, Arden Baxter named Chancellor, reduction of military ordered</headline>
+    <date>2415</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim War begins</headline>
+    <date>2418</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim War ends</headline>
+    <date>2422</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Arden Baxter assassinated, Stephen Liao named Chancellor</headline>
+    <date>2425</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stephen Liao dies, Duncan Liao named Chancellor</headline>
+    <date>2450</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Time of Tribulation begins</headline>
+    <date>2451</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Duncan Liao commits suicide, Jasmine Liao named Chancellor</headline>
+    <date>2452</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Limit on military rank instituted</headline>
+    <date>2455</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Xanthe Operation takes place</headline>
+    <date>2462</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jasmine Liao dies, Raxal Liao named Chancellor, Edmund Salindar named Regent</headline>
+    <date>2477</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decree of Prime Extension issued</headline>
+    <date>2480</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raxal Liao comes of age and abdicates, Hendrik Liao named Chancellor</headline>
+    <date>2482</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Order of Lorix formed</headline>
+    <date>2505</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decree of Retension issued</headline>
+    <date>2512</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hendrik Liao resigns, Kalvin Liao named Chancellor</headline>
+    <date>2520</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Court of Philosophical Inquiry established, Hendrik Liao executed</headline>
+    <date>2521</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decimation of House of Scions</headline>
+    <date>2523</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House of Scions closed</headline>
+    <date>2524</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League ambassador expelled</headline>
+    <date>2527</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Andurien War begins</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kalvin Liao assassinated, Mica Liao named Chancellor</headline>
+    <date>2530</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Andurien War ends</headline>
+    <date>2531</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mica Liao dies, Salicia Liao named Chancellor</headline>
+    <date>2542</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Bell Accord signed</headline>
+    <date>2546</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sarna Mandate developed</headline>
+    <date>2550</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Salicia Liao dies, Terrence Liao named Chancellor, Third Andurien War begins</headline>
+    <date>2551</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Andurien War ends, Capellan Confederation joins Terran League</headline>
+    <date>2556</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League Articles signed, Star League founded, Terrence Liao dies, Ursula Liao named Chancellor</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Freebooters War begins</headline>
+    <date>2584</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Freebooters War ends</headline>
+    <date>2588</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decree of Succession issued</headline>
+    <date>2598</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ursula Liao dies, Normann Aris named Chancellor</headline>
+    <date>2599</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Normann Aris dies, Sundermann Liao named Chancellor</headline>
+    <date>2611</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sundermann Liao dies, Androsar Liao named Chancellor</headline>
+    <date>2663</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decree of Expulsion issued</headline>
+    <date>2711</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Androsar Liao dies, Warex Liao named Chancellor</headline>
+    <date>2719</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League falls</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Delos Massacre</headline>
+    <date>2789</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Barbara Liao dies, Sandol Quinn named Chancellor</headline>
+    <date>2795</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sandol Quinn resigns, Ilsa Liao named Chancellor</headline>
+    <date>2801</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ilsa Liao renounces claim to First Lordship</headline>
+    <date>2808</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Science Foundation founded</headline>
+    <date>2818</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ilsa Liao killed, Laurelli Liao named Chancellor</headline>
+    <date>2828</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>ComStar imposes interdict on Free Worlds League</headline>
+    <date>2837</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Chesterton Decree issued</headline>
+    <date>2840</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Laurelli Liao dies, Dainmar Liao named Chancellor</headline>
+    <date>2860</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins, Dainmar Liao resigns, Otto Liao named Chancellor</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Dainmar Liao commits suicide</headline>
+    <date>2867</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sian University founded</headline>
+    <date>2888</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Otto Liao resigns, Merlin Liao named Chancellor</headline>
+    <date>2917</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Merlin Liao dies, Tarlak Liao named Chancellor</headline>
+    <date>2942</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tarlak Liao assassinated, Ingrid Liao named Chancellor</headline>
+    <date>2950</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decree of Martial Unity issued</headline>
+    <date>2964</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ingrid Liao dies, Tormax Liao named Chancellor</headline>
+    <date>2980</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Death Commandos formed</headline>
+    <date>2988</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tormax Liao deposed, Maximilian Liao named Chancellor</headline>
+    <date>2990</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ministry of Development reorganized</headline>
+    <date>3005</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik Civil War</headline>
+    <date>3014</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Contact with Michael Hasek-Davion made</headline>
+    <date>3020</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>McCarron's War begins, Concord of Kapteyn signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Doppelganger takes place, McCarron's War ends, Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War begins, Tormana Liao captured, Northwind Agreement takes effect, Operation Riposte takes place</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov Free Republic formed, Operation Intruders Communion takes place, St. Ives Compact formed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation attacked by Andurien/Canopus alliance</headline>
+    <date>3031</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Rasalhague Republic formed</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Maximilian Liao dies, Romano Liao named Chancellor</headline>
+    <date>3036</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Romano Liao assassinated, Sun-Tzu Liao named Chancellor, Sun-Tzu Liao betrothed to Isis Marik</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially formed</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation and Free Worlds League invade Federated Commonwealth, Isis Marik moves to Sian, Lyran Alliance formed</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Coventry</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan / St. Ives Civil War begins</headline>
+    <date>3060</date>
+    <desc></desc>
+    <service>CCC</service>
+    <location></location>
+  </newsItem>
+</news>

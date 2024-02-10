@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+steiner_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Tamar Pact created</headline>
+    <date>2235</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Worlds League formed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federation of Skye formed</headline>
+    <date>2299</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Suns formed</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine formed</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth formed</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation formed</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Marsden named Archon Basileus</headline>
+    <date>2375</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Articles of Acceptance signed</headline>
+    <date>2376</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Marsden assassinated, Alistair Marsden named Archon</headline>
+    <date>2395</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alistair Marsden marries Katherine Steiner</headline>
+    <date>2405</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tharkad named capital of Lyran Commonwealth</headline>
+    <date>2407</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Vega Strike enacted, Alistair Marsden killed, Katherine Steiner assumes Archonship</headline>
+    <date>2408</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ares Conventions signed</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brandenberg Edicts issued, Commonwealth Scout Corps formed</headline>
+    <date>2413</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMech invented</headline>
+    <date>2439</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Katherine Steiner steps down, Alistair Steiner named Archon</headline>
+    <date>2445</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMech plans stolen from Terran Hegemony</headline>
+    <date>2455</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Long March launched</headline>
+    <date>2463</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alistair Steiner assassinated, Michael Steiner named Archon</headline>
+    <date>2467</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Steiner dies, Steven Steiner named Archon</headline>
+    <date>2471</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LOKI incident</headline>
+    <date>2488</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Steven Steiner dies, Margaret Olsen named Archon</headline>
+    <date>2501</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Margaret Olsen removed</headline>
+    <date>2503</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Steiner named Archon</headline>
+    <date>2506</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Steiner abdicates, Craig Steiner named Archon</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Supreme Court of Commonwealth created</headline>
+    <date>2543</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Craig Steiner dies, Tracial Steiner named Archon</headline>
+    <date>2555</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tharkad Accords signed</headline>
+    <date>2558</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tracial Steiner dies, Viola Steiner-Dinesen named Archon</headline>
+    <date>2570</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League formed</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>The Great Tax Debate</headline>
+    <date>2575</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Mailed Fist launched</headline>
+    <date>2581</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kevin Steiner-Dinesen kidnapped</headline>
+    <date>2591</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kevin Steiner-Dinesen rescued, Estates-General disbanded</headline>
+    <date>2592</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Viola Steiner-Dinesen killed, Kevin Steiner-Dinesen named Archon</headline>
+    <date>2596</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Estates-General reconvened</headline>
+    <date>2611</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Businessman's Strike</headline>
+    <date>2623</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kevin Steiner-Dinesen dies, Sarah Steiner-Dinesen named Archon</headline>
+    <date>2647</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Foreign tariffs rescinded</headline>
+    <date>2660</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sarah Steiner-Dinesen abdicates, William Steiner named Archon</headline>
+    <date>2672</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>William Steiner dies, Jonathan Steiner named Archon</headline>
+    <date>2704</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jonathan Steiner dies, Michael Steiner II named Archon</headline>
+    <date>2729</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron killed</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Steiner II dies, Robert Steiner II named Archon</headline>
+    <date>2760</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron comes of age</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Vandenberg Crisis</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris coup</headline>
+    <date>2767</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League dissolved, Robert Steiner II dies, Jennifer Steiner named Archon</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Exodus takes place</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jennifer Steiner killed, Richard Steiner named Archon</headline>
+    <date>2791</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reorganization of garrison</headline>
+    <date>2792</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Estates-General disbanded</headline>
+    <date>2812</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peace Accord of Bella I signed, First Succession War ends</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Estates-General reconvened</headline>
+    <date>2822</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Steiner dies, Marcus Steiner named Archon</headline>
+    <date>2823</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marcus Steiner goes into a coma, Melissa Nin named Archon</headline>
+    <date>2844</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marcus Steiner dies, Melissa Nin executed for treason, Claudius Steiner named Archon,</headline>
+    <date>2845</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Praying Mantis begins</headline>
+    <date>2848</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Claudius Steiner dies, Elizabeth Steiner named Archon-Designate, Estates-General</headline>
+    <date>2849</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Yoguchi Kurita assassinated by Snow Fire</headline>
+    <date>2850</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elizabeth Steiner named Archon</headline>
+    <date>2859</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War ends</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elizabeth Steiner dies, Eric Steiner named Archon</headline>
+    <date>2895</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Military Services Acts modified</headline>
+    <date>2908</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Freedom begins, Eric Steiner killed</headline>
+    <date>2913</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tatyana Steiner named Archon</headline>
+    <date>2914</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tatyana Steiner abdicates, Marco Steiner named Archon</headline>
+    <date>2937</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marco Steiner retires, Giovanni Steiner named Archon</headline>
+    <date>2952</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Giovanni Steiner dies, Alessandro Steiner named Archon</headline>
+    <date>2980</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Deep Raid of 2987</headline>
+    <date>2987</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Concentrated Weakness begins</headline>
+    <date>3002</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alessandro Steiner is forced to retire, Katrina Steiner named Archon</headline>
+    <date>3007</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Katrina Steiner issues Peace Proposal</headline>
+    <date>3020</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated-Commonwealth Alliance Document signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Thor takes place</headline>
+    <date>3027</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Melissa Steiner marries Hanse Davion, Fourth Succession War begins, Unofficial creation of the Federated-Commonwealth</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Compact formed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Rasalhague Republic formed, Skye Crisis</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 begins, Katrina Steiner abdicates, Melissa Steiner-Davion named Archon</headline>
+    <date>3039</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 ends, Katrina Steiner dies</headline>
+    <date>3040</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Armed Forces of the Federated Commonwealth created</headline>
+    <date>3041</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clans invade Inner Sphere</headline>
+    <date>3050</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Battle of Tukayyid, Hanse Davion dies</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Melissa-Steiner Davion assassinated</headline>
+    <date>3055</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially created, Ryan Steiner assassinated, Archon-Prince Victor Steiner-Davion takes control of Federated Commonwealth</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Alliance formed, Capellan Confederation and Free Worlds League invade Federated Commonwealth, Katrina Steiner named Archon of Lyran Alliance</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Invasion of Coventry</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>LAA</service>
+    <location></location>
+  </newsItem>
+</news>

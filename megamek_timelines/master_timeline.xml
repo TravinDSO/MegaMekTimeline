@@ -1,0 +1,3335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+master_timeline.xml
+2/9/2024
+Maurice Nelson (Travin)
+Updated
+2/10/2024
+This file defines defines a set of news item that will display in the daily report frame of MekHQ. Sources are provided where available.    Here is a description of what goes in each newsItem tag.
+    headline - This is the headline that will appear in the daily report and in the title of the full article. This item should always be defined.
+    date - the date of the news item in yyyy-MM-dd format. This is required. If the "dd" part is missing, the day will be rolled randomly (each campaign will have its own random seed for that). Same if only the year is supplied. Finally, the year can be of the form "302X", which will generate a random day within that decade.
+    desc - a longer description of the news item. This is optional, but must be present for the "read more" link. It should always be surrounded by <![CDATA[stuff]]> and may contain html markup.
+    service - an optional tag for the news service doing the reporting
+    location - an optional tag for the location of the news report
+    -->
+
+<news>
+  <newsItem>
+    <headline>Crippen Station put into orbit</headline>
+    <date>2005</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Crippen Station fitted with construction platforms</headline>
+    <date>2007</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov Accords signed, Oleg Tikonov assassinated, Second Soviet Civil War begins</headline>
+    <date>2011</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Soviet Civil War ends, Western Alliance formed</headline>
+    <date>2014</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance World Parliament formed</headline>
+    <date>2015</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Western Alliance Space Command formed</headline>
+    <date>2016</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>AS Altair launched</headline>
+    <date>2017</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Kearny and Fuchida begin publishing theories</headline>
+    <date>2018</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First self-sustaining fusion reaction developed</headline>
+    <date>2020</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First commercially available fusion power plant developed</headline>
+    <date>2021</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Asian Co-Prosperity Sphere formed</headline>
+    <date>2022</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Osaka Agreement announced</headline>
+    <date>2024</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First working fusion drive developed</headline>
+    <date>2026</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>AS Columbia voyages to Mars</headline>
+    <date>2027</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Magellan Project initiated</headline>
+    <date>2028</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Magellan One launched</headline>
+    <date>2030</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Takayoshi Fuchida dies</headline>
+    <date>2038</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Kearny dies</headline>
+    <date>2047</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance formed</headline>
+    <date>2086</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Kearny-Fuchida Drive proven feasible</headline>
+    <date>2102</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Deimos Project authorized</headline>
+    <date>2103</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>First hyperspatial jump made</headline>
+    <date>2107</date>
+    <desc></desc>
+    <service>TNS</service>
+    <location>Terra</location>
+  </newsItem>
+  <newsItem>
+    <headline>Raymond Bache becomes first human to experience hyperspatial jump, TAS Pathfinder makes jump to Tau Ceti</headline>
+    <date>2108</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First scientific outpost outside Sol system established</headline>
+    <date>2110</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Research outpost established on New Earth</headline>
+    <date>2112</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Ark launched, first interstellar colony established on New Earth</headline>
+    <date>2116</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Space Navy created</headline>
+    <date>2120</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Charger launched</headline>
+    <date>2122</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liberator misjumps, Colonization Procedure Referendum passed</headline>
+    <date>2128</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Alliance Grand Survey initiated</headline>
+    <date>2168</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Alliance Grand Survey completed</headline>
+    <date>2172</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov settled, Ryan Cartel formed</headline>
+    <date>2177</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Liao cleansing actions begin</headline>
+    <date>2182</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elias Liao leaves Terra, Cleansing actions end</headline>
+    <date>2188</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Cynthiana settled</headline>
+    <date>2189</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Chesterton Trade League founded</headline>
+    <date>2193</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elias Liao dies, Cynthiana's name changed to Liao, Victor Liao named Governor of Liao</headline>
+    <date>2202</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Avalon settled</headline>
+    <date>2213</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Korvin Doctrine established</headline>
+    <date>2225</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tamar Pact formed, Alliance Grand Survey of Inhabited Planets conducted</headline>
+    <date>2235</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Denebola and Freedom declare themselves independent, Outer Reaches Rebellion begins</headline>
+    <date>2236</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance Liberal Party comes to power, New Avalon Grain Rebellion</headline>
+    <date>2237</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik declares independence, Charles Marik forms Republic of Marik, Outer Reaches Rebellion ends</headline>
+    <date>2238</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Covenant of New Avalon ratified, Jason Hasek voted first Prime Minister of New Avalon</headline>
+    <date>2239</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Victor Liao dies, Irenna Liao elected President of Liao</headline>
+    <date>2240</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik Constitution passed at Constitutional Convention of Republic of Marik, Oriente declares independence, Tomas Allison founds Federation of Oriente</headline>
+    <date>2241</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance makes Demarcation Declaration, Exodus begins</headline>
+    <date>2242</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tikonov Grand Union founded</headline>
+    <date>2243</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Mercantile Association founded</headline>
+    <date>2245</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sian Supremacy founded, Rim Worlds Republic formed, Calderon Flotilla leaves Aix-La-Chappelle</headline>
+    <date>2250</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurus colonized, Taurian Concordat formed</headline>
+    <date>2253</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Covenant of New Avalon ratified, Sandra Lockhart voted first Prime Minister of New Avalon for life</headline>
+    <date>2255</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samantha Calderon dies, Timothy Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2268</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Hegemony founded, Capellan Renaissance begins, Shiro Kurita born</headline>
+    <date>2270</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Republic of Marik, Federation of Oriente, and Principality of Regulus sign Document of Incorporation, forming Free Worlds League, FWL Rule of 75 passed, FWL Treaty of Marik passed</headline>
+    <date>2271</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Juliano Marik named first Captain-General of the Free Worlds League, FWL Stewart War takes place, First New Avalon-built freighter dedicated</headline>
+    <date>2293</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stewart Commonality annexed by FWL, James McKenna takes command of Terran Alliance Navy</headline>
+    <date>2295</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shiro Kurita named First Citizen of Galedon</headline>
+    <date>2296</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federation of Skye formed</headline>
+    <date>2299</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TAS Dreadnought, the first true combat warship, launched</headline>
+    <date>2300</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alliance of Galedon formed</headline>
+    <date>2302</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Christopher Marik marries Madelyne Sian and their descendants are denied the FWL Captain-Generalcy, Capellan-Supremacy War begins, Tenno Kurita born, Hector Rowe commits suicide, Maxwell Rowe named RWR First Consul</headline>
+    <date>2305</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Ryerson Accords signed, first non-Marik named Captain-General of FWL, FWL allies with Capellan Hegemony</headline>
+    <date>2306</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Arboris secedes from Capellan Hegemony, FWL withdraws alliance</headline>
+    <date>2308</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan-Supremacy War ends, Paula Aris commits suicide</headline>
+    <date>2309</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Commonality formed, Megaris system settled, People's Independence Party formed</headline>
+    <date>2310</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council of One summit meeting</headline>
+    <date>2311</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samantha system settled</headline>
+    <date>2312</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Alliance dissolved, Grant Zoli murdered</headline>
+    <date>2314</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Hegemony formed, Duchy of Liao formed, Orbital bombardment of Strand Rock, Terran Hegemony Charter issued</headline>
+    <date>2315</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Juliano Marik signs Treaty of Terra, Renfield system settled, James McKenna elected TH Director-General, TH invasion of Quentin, Errai, and Helen</headline>
+    <date>2316</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL National Intelligence Agency formed, Crucis Pact signed, forming Federated Suns, Lucien Davion named first President of FS, Cyrton system settled</headline>
+    <date>2317</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Draconis Combine founded, FS Department of Military Intelligence formed</headline>
+    <date>2319</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ishtar system settled, TH invasion of Terra Firma, Capella, and Nanking</headline>
+    <date>2320</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Timothy Calderon dies, Sandra Calderon named Protector of the Taurian Homeworlds</headline>
+    <date>2330</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lucien Davion retires, Charles Davion named FS President, Lucien Davion dies</headline>
+    <date>2332</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Calderon named Protector of the Taurian Homeworlds, Taurian Concordat formed</headline>
+    <date>2335</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita dies, Nihongi Kurita born</headline>
+    <date>2336</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH invasion of Syrma, James McKenna dies</headline>
+    <date>2338</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Charles Davion dies, Reynard Davion named FS President, Michael Cameron elected TH Director-General, TH Hegemony Research Alliance Department created</headline>
+    <date>2340</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lyran Commonwealth founded, Arabella Rowe named RWR First Consul</headline>
+    <date>2341</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adam Kurita named DC Warlord of Rasalhague</headline>
+    <date>2342</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Hegemony Business Information Exchange formed</headline>
+    <date>2343</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS and Capellan Commonality sign Acala Pact</headline>
+    <date>2345</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS and Capellan Commonality sign Almach Accord</headline>
+    <date>2346</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shiro Kurita dies, Tenno Kurita named DC Coordinator</headline>
+    <date>2348</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Operation Musclebound takes place</headline>
+    <date>2350</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Peer's List created</headline>
+    <date>2351</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kyle, Dorian, Corval, and Brion Sian-Marik executed for the assassination of Geraldine Marik</headline>
+    <date>2364</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Selec Tucas dies, Aris Crisis begins in Capellan Commonality</headline>
+    <date>2365</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Capellan Confederation founded, FWL begins occupation of CC border worlds, Franco Liao named first Chancellor of CC</headline>
+    <date>2366</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aris Crisis ends, FS occupies Capella Prime, Franco Liao orders orbital bombardment of Capella Prime, CC capital moved to Sian, Michael Cameron retires, Margaret Cameron elected TH Director-General, TH Military Recruitment and Preparedness Bill passed</headline>
+    <date>2367</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Prefectorate established</headline>
+    <date>2368</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reynard Davion dies, Etien Davion named FS President</headline>
+    <date>2371</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Board of Magistrates formed</headline>
+    <date>2373</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Marsden named LC Archon Basileus</headline>
+    <date>2375</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tenno Kurita commits seppuku, Nihongi Kurita named DC Coordinator, LC Articles of Acceptance signed, Arabella Rowe dies, Michael Durant named RWR First Consul</headline>
+    <date>2376</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jason Kurita named DC Warlord of Rasalhague, Etien Davion commits suicide, Paul Davion named FS President</headline>
+    <date>2378</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parker Kurita born, TH Mother Doctrine established</headline>
+    <date>2380</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Margaret Cameron retires, Raymond Cameron elected TH Director-General</headline>
+    <date>2382</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Calderon dies, Daniel Calderon named TC Protector of the Taurian Homeworlds, Raymond Cameron assassinated</headline>
+    <date>2387</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brian Cameron elected TH Director-General</headline>
+    <date>2388</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Grand Survey taken</headline>
+    <date>2389</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Daniel Calderon dies, Sigur Fonn named TC Regent-Protector of the Taurian Homeworlds</headline>
+    <date>2390</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH construction of Castles Brian begins</headline>
+    <date>2391</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Succession Bill passed</headline>
+    <date>2392</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Paul Davion dies, Marie Davion named FS President</headline>
+    <date>2394</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Franco Liao resigns, Kurnath Liao named Chancellor of CC, Robert Marsden assassinated, Alistair Marsden named LC Archon</headline>
+    <date>2395</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik named Captain-General of FWL, CC Maskirovka created, Nihongi Kurita dies, Robert Kurita named DC Coordinator</headline>
+    <date>2396</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Andurien War begins, Age of War begins</headline>
+    <date>2398</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kurnath Liao killed, Aleisha Liao named Chancellor of CC, FS Novaya Zemlya Incident</headline>
+    <date>2399</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marie Davion dies, Edmund Davion named FS President</headline>
+    <date>2402</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brian Cameron killed, Judith Cameron elected TH Director-General</headline>
+    <date>2403</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Andurien War ends, Duchy of Graham-Marik formed in FWL</headline>
+    <date>2404</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alistair Marsden marries Katherine Steiner</headline>
+    <date>2405</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC invasion of Tamar Pact, Tharkad named LC capital</headline>
+    <date>2407</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC makes Vega Strike, Alistair Marsden killed, Katherine Steiner takes LC Archonship</headline>
+    <date>2408</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tintavel Massacre, Ares Conventions adopted, Robert Kurita assassinated, Parker Kurita named DC Coordinator</headline>
+    <date>2412</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Committee designated to oversee Peter Marik's campaigns in FWL, LC Brandenberg Edicts issued, LC Commonwealth Scout Corps formed, Julius Avellar withdraws to Alpheratz</headline>
+    <date>2413</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aleisha Liao dies, Arden Baxter named Chancellor of CC, Reduction of CC military ordered, Edmund Davion dies, Edward Davion named FS President, Outworlds Alliance formed</headline>
+    <date>2415</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War between LC and FWL begins</headline>
+    <date>2416</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS November Conspiracy begins, Edward Davion assassinated, Simon Davion named FS President, FS Principalities formed, OA Outworlds Alliance Charter ratified</headline>
+    <date>2417</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Armistice between LC and FWL concluded, FWL War Powers Act passed, Rim War begins, Simon Davion named First Prince of FS</headline>
+    <date>2418</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Judith Cameron steps down, Richard Cameron elected TH Director-General</headline>
+    <date>2419</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War between LC and FWL renewed, Joseph Stewart named Captain-General of FWL, FWL forces routed</headline>
+    <date>2420</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Parker Kurita killed, Nihongi Von Rohrs named DC Coordinator, Jason Kurita killed, Daniel Sorenson becomes Lord of Rasalhague, DC line of succession becomes blurred</headline>
+    <date>2421</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik assassinated, Rim War ends</headline>
+    <date>2422</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Arden Baxter assassinated, Stephen Liao named Chancellor of CC</headline>
+    <date>2425</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War between LC and FWL renewed, Terrence Marik refuses Captain-Generalcy of FWL, FWL War Powers Act and Parliamentary Committee disbanded, Terrence Marik named Captain-General of FWL</headline>
+    <date>2427</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH seizes Kentares system</headline>
+    <date>2431</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH Nomination laws revised</headline>
+    <date>2432</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron dies, Jacob Cameron elected TH Director-General</headline>
+    <date>2433</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TH invents BattleMech</headline>
+    <date>2439</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik II named Captain-General of FWL</headline>
+    <date>2441</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Katherine Steiner steps down, Alistair Steiner named LC Archon</headline>
+    <date>2445</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Marik II elected Speaker of the House of FWL</headline>
+    <date>2446</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMechs first deployed by cargo carrier</headline>
+    <date>2449</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stephen Liao dies, Duncan Liao named Chancellor of CC</headline>
+    <date>2450</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Time of Tribulation begins</headline>
+    <date>2451</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Geralk Marik named Captain-General of FWL, Duncan Liao commits suicide, Jasmine Liao named Chancellor of CC</headline>
+    <date>2452</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>BattleMechs first deployed by "combat" drop</headline>
+    <date>2453</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC limit on military rank instituted, LC gains BattleMech technology</headline>
+    <date>2455</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS gains BattleMech technology, Simon Davion dies, James Davion named FS First Prince</headline>
+    <date>2457</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First use of BattleMechs in combat</headline>
+    <date>2459</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC gains BattleMech technology, Jacob Cameron dies, Theodore Cameron elected TH Director-General</headline>
+    <date>2461</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL gains BattleMech technology, CC Xanthe operation takes place</headline>
+    <date>2462</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Long March Campaign launched, Heather Durant dies, Terens Amaris named RWR First Consul</headline>
+    <date>2463</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Davion assassinated, Ellen Davion named FS First Prince, Alistair Steiner assassinated, Michael Steiner named LC Archon</headline>
+    <date>2467</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First use of BattleMechs by FWL, First general strike in TH history</headline>
+    <date>2470</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Steiner dies, Steven Steiner named LC Archon</headline>
+    <date>2471</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Act of Succession passed</headline>
+    <date>2473</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Invasion of TH stalled by coup, Brion Marik named Captain-General of FWL, First full-scale BattleMech vs. BattleMech battle</headline>
+    <date>2475</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jasmine Liao dies, Raxal Liao named Chancellor of CC, Edmund Salindar named CC Regent</headline>
+    <date>2477</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Treaty with TH signed</headline>
+    <date>2478</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Theodore Cameron dies, Elizabeth Cameron elected TH Director-General</headline>
+    <date>2479</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Decree of Prime Extension issued</headline>
+    <date>2480</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raxal Liao comes of age and abdicates, Hendrik Liao named Chancellor of CC</headline>
+    <date>2482</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Daniel Sorenson dies</headline>
+    <date>2487</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC LOKI Incident, RWR becomes hereditary Amaris holding</headline>
+    <date>2488</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Martin McAllister marries Illyana Sorenson</headline>
+    <date>2494</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Dropship used, Siriwan McAllister-Kurita born</headline>
+    <date>2496</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Illyana Sorenson dies</headline>
+    <date>2499</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Steven Steiner dies, Margaret Olsen named LC Archon, Elizabeth Cameron dies, Deborah Cameron elected TH Director-General</headline>
+    <date>2501</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ellen Davion retires, William Davion named FS First Prince</headline>
+    <date>2502</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Margaret Olsen removed as LC Archon</headline>
+    <date>2503</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Order of Lorix formed</headline>
+    <date>2505</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Robert Steiner named LC Archon</headline>
+    <date>2506</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Von Rohrs line eliminated during DC McAllister Rebellion, Martin McAllister named DC Coordinator, Rasalhague and DC unite, Ellen Davion dies</headline>
+    <date>2510</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brion Marik dies, Albert Marik named Captain-General of FWL, TC and FS sign Omsol Accords</headline>
+    <date>2511</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Decree of Retension issued, William Davion dies, Alexander Davion named FS First Prince, Cassandra Varnay, David Varnay, Nikolai Rostov, Laura Davion, and Carmen Davion named FS Regents</headline>
+    <date>2512</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Martin McAllister assassinated, Siriwan McAllister-Kurita named DC Brevet Coordinator, Siriwan McAllister-Kurita and Warren Kurita marry, Warren Kurita named DC Coordinator</headline>
+    <date>2515</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hehiro Kurita born</headline>
+    <date>2516</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Warren Kurita dies, Siriwan McAllister-Kurita named DC Regent</headline>
+    <date>2517</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Treason Trials begin</headline>
+    <date>2518</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hendrik Liao resigns, Kalvin Liao named Chancellor of CC, FS Treason Trials end</headline>
+    <date>2520</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Court of Philosophical Inquiry established, Hendrik Liao executed</headline>
+    <date>2521</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Decimation of CC House of Scions</headline>
+    <date>2523</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC House of Scions closed, FS Davion Civil War begins</headline>
+    <date>2524</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Ambassador expelled from CC</headline>
+    <date>2527</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Andurien War begins, Robert Steiner abdicates, Craig Steiner named LC Archon, TC and CC fight Ariana's War</headline>
+    <date>2528</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kalvin Liao assassinated, Mica Liao named Chancellor of CC, Kotsandra Centrella founds the Magistracy of Canopus</headline>
+    <date>2530</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Deborah Cameron facilitates settlement between FWL and CC, Second Andurien War ends, MC Constitution of Magistracy Free States established</headline>
+    <date>2531</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shandra Noruff betrothed to Ian Cameron</headline>
+    <date>2533</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shandra Noruff marries Ian Cameron</headline>
+    <date>2535</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Davion Civil War ends, FS Principalities disbanded</headline>
+    <date>2537</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mica Liao dies, Salicia Liao named Chancellor of CC, Deborah Cameron retires, Joseph Cameron elected TH Director-General</headline>
+    <date>2542</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Supreme Court of Commonwealth created</headline>
+    <date>2543</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS and CC sign Bell Accord</headline>
+    <date>2546</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Cameron assassinated, Ian Cameron declares himself TH Director-General, TH September Revolt</headline>
+    <date>2549</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Sarna Mandate developed</headline>
+    <date>2550</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Andurien War begins, Salicia Liao dies, Terrence Liao named Chancellor of CC</headline>
+    <date>2551</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Craig Steiner dies, Tracial Steiner named LC Archon</headline>
+    <date>2555</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron facilitates settlement between FWL and CC, Third Andurien War ends, CC joins Terran League, Hehiro Kurita named DC Coordinator, Age of War ends, Nicholas Cameron born, TH, CC, and FWL sign Treaty of Geneva</headline>
+    <date>2556</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Tharkan Accords signed, LC agrees to join the Star League</headline>
+    <date>2558</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL instigates economic crisis in FS</headline>
+    <date>2566</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS New Avalon Accords signed, FS agrees to join the Star League</headline>
+    <date>2567</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC Treaty of Vega signed, DC agrees to join the Star League</headline>
+    <date>2569</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tracial Steiner dies, Viola Steiner-Dinesen named LC Archon, Coranna Centrella named MC Magestrix</headline>
+    <date>2570</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League Accords signed, Star League formed, Terrence Liao dies, Ursula Liao named Chancellor of CC, Shandra Noruff-Cameron appointed Commander-in-Chief of Star League Defense Force, Ian Cameron named First Lord of the Star League</headline>
+    <date>2571</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League Directive 21 instituted, Santiago Massacre, Ian Cameron delegates all duties as TH Director-General to his heir and the President of the TH Hegemony Congress, United Triumph Military Exercises take place, Border Guards Agreement passed, Executive Order 4 issued</headline>
+    <date>2572</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Malagrotta Affair, RWR Universal Act of Loyalty passed, Bureau of Star League Affairs created</headline>
+    <date>2573</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Harsh Periphery trade restrictions and taxes passed</headline>
+    <date>2574</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Tax Reform Debate of 2575, Pollux Proclamation issued, RWR Manchester Directive issued, Reunification War begins, Taurian Campaign begins, Shandra Noruff-Cameron steps down, General Carlos Dangmar Lee named Commander- in-Chief of SLDF</headline>
+    <date>2575</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Case Amber adopted</headline>
+    <date>2576</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Canopian Campaign begins</headline>
+    <date>2577</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League officially declares war</headline>
+    <date>2578</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron renounces tenets of Ares Conventions</headline>
+    <date>2579</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Operation Mailed Fist launched, Star League forces orbitally bombard Robsart, OA Consadine Mission launched, Outworlds Campaign begins, Pitcairn Legion formed, Rim Worlds Campaign begins</headline>
+    <date>2581</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shippers License Act passed</headline>
+    <date>2582</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>TC Case Black enacted, Amalthea Kincaid assassinated</headline>
+    <date>2583</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL captures Canopus IV, Freebooters War begins</headline>
+    <date>2584</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>OA Peace of Cerberus negotiated, Outworlds Campaign ends</headline>
+    <date>2585</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Grigori Avellar dies, Barton Avellar named OA Parliamentary President</headline>
+    <date>2587</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL gains control of Magistracy of Canopus, Freebooters War ends, Mitchell Calderon dies, Marantha Calderon named TC Protector of the Taurian Homeworlds, Melissa Humphreys appointed Military Governor of MC, Canopian Campaign ends</headline>
+    <date>2588</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hehiro Kurita dies, Leonard Kurita named DC Coordinator, Kevin Steiner-Dinesen kidnapped</headline>
+    <date>2591</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kevin Steiner-Dinesen rescued, LC Estates-General disbanded</headline>
+    <date>2592</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Viola Steiner-Dinesen killed, Kevin Steiner-Dinesen named LC Archon, TC surrenders, Marantha Calderon commits suicide, Henry Calderon named TC Protector of the Taurian Homeworlds, Rim Provisional Government surrenders, Taurian Campaign ends, Rim Worlds Campaign ends</headline>
+    <date>2596</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reunification War ends, TC, MC, RWR, and OA become Territorial States of the Star League</headline>
+    <date>2597</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Decree of Succession issued, Nicholas Cameron marries Lydia Peterson, General Nicholas Kinnol named Commander-in-Chief of SLDF</headline>
+    <date>2598</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ursula Liao dies, Normann Aris named Chancellor of CC, Gregory Amaris assassinated, Richard Amaris named RWR President</headline>
+    <date>2599</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alexander Davion dies, Zane Davion named FS First Prince, Barton Avellar assassinated, Rodrigo Avellar named OA Parliamentary President, Shandra Noruff-Cameron dies, Good Years begin</headline>
+    <date>2600</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Cameron dies, Nicholas Cameron named First Lord of the Star League</headline>
+    <date>2602</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Civil government on Canopus restored, Rinalla Centrella named MC Magestrix, Kerensky family named "Defenders of the First Lord"</headline>
+    <date>2604</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Leonard Kurita dies, Blaine Kurita named DC Coordinator, Blaine Kurita dies, Siriwan McAllister-Kurita named DC Coordinator, Last Star League forces leave TC</headline>
+    <date>2605</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Executive Order 34 issued</headline>
+    <date>2606</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Siriwan McAllister-Kurita retires, Sanethia Kurita named DC Coordinator, Last Star League forces leave OA, Territorial States given Associate-Member status</headline>
+    <date>2607</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Normann Aris dies, Sundermann Liao named Chancellor of CC, LC Estates-General reconvened</headline>
+    <date>2611</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rinalla Centrella abdicates, Carla Centrella named MC Magestrix</headline>
+    <date>2612</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Hoshiko appointed Star League Minister of Communications</headline>
+    <date>2614</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Cassie DeBurke begins work on Hyper Pulse Generator theory</headline>
+    <date>2615</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC capital moved to Luthien</headline>
+    <date>2617</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Amaris dies, Amanda Amaris named RWR President</headline>
+    <date>2619</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sanethia Kurita retires, Urizen Kurita named DC Coordinator, Amanda Amaris assassinated, Jeffrey Amaris named RWR President</headline>
+    <date>2620</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Democratic elections restored in RWR, Jeffrey Amaris abdicates, Selanta Amaris named RWR President</headline>
+    <date>2622</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League system of currency adopted, LC Businessman's Strike of 2623</headline>
+    <date>2623</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rodrigo Avellar dies, Caryn Avellar named OA Parliamentary President</headline>
+    <date>2628</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Henry Calderon abdicates, Consuelo Calderon named TC Regent-Protector of the Taurian Homeworlds, First HPG built</headline>
+    <date>2629</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First HPG message transmitted, Joseph Cameron named TH Director-General</headline>
+    <date>2630</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL NIA disbanded, FWL SAFE formed, Executive Order 35 issued</headline>
+    <date>2631</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Siriwan McAllister-Kurita dies</headline>
+    <date>2632</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Caryn Avellar removed, Peter Avellar named OA Parliamentary President</headline>
+    <date>2634</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Peter Avellar killed, First Martial Olympiad</headline>
+    <date>2640</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Cameron implicated in fraud, Joseph Cameron dies</headline>
+    <date>2641</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adolfo Avellar named OA Parliamentary President</headline>
+    <date>2642</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Killian Squarn-Turk named Commander-in-Chief of SLDF</headline>
+    <date>2646</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kevin Steiner-Dinesen dies, Sarah Steiner-Dinesen named LC Archon</headline>
+    <date>2647</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Selanta Amaris undergoes cancer treatment, Tadeo Amaris named RWR Regent, Nicholas Cameron dies, Michael Cameron named First Lord of the Star League</headline>
+    <date>2649</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council Edict 2650 issued, Consuelo Calderon claims right of succession in TC, Good Years end</headline>
+    <date>2650</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League levies new taxes against territorial states</headline>
+    <date>2651</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC industrial development program initiated</headline>
+    <date>2652</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Carla Centrella abdicates, Celine Centrella named MC Magestrix</headline>
+    <date>2654</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Celine Centrella dies, Gorraine Centrella named MC Magestrix</headline>
+    <date>2656</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Zane Davion dies, Sarah Davion named FS First Prince, Michael Cameron marries Katarina Mann</headline>
+    <date>2659</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC rescinds foreign tariffs</headline>
+    <date>2660</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sundermann Liao dies, Androsar Liao named Chancellor of CC, Consuelo Calderon named Star League Second Lord</headline>
+    <date>2663</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Scourge of Death makes first appearance in FWL</headline>
+    <date>2667</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Consuelo Calderon dies, Reginald Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>2671</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sarah Steiner-Dinesen abdicates, William Steiner named LC Archon</headline>
+    <date>2672</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>House units allowed to compete in Martial Olympiads</headline>
+    <date>2676</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marik estate bombed by Scourge of Death, Gerald Marik named Captain-General of FWL, TC passes Education Reform Act</headline>
+    <date>2678</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Puraj, D'mir, and Rajneesh Selaj implicated in FWL bombing and sentenced to death, D'mir Selaj commits suicide</headline>
+    <date>2679</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Puraj and Rajneesh Selaj escape to MC, DC Internal Security Force budget quadrupled, Gorraine Centrella dies, Kim Centrella named MC Magestrix, Admiral David Peterson named Commander-in-Chief of SLDF</headline>
+    <date>2680</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Rim Commonality separates from Principality of Regulus, Sarah Davion dies, Samuel Davion named FS First Prince, First duel involving SLDF MechWarrior fought</headline>
+    <date>2681</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Reginald Calderon retires, Jentarra Calderon named TC Protector of the Taurian Homeworlds, Adolfo Avellar dies, Davis Avellar named OA Parliamentary President, Selanta Amaris dies, Carl Siever named RWR President</headline>
+    <date>2687</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Land-Air 'Mech produced</headline>
+    <date>2688</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Cameron retires, Jonathan Cameron named First Lord of the Star League</headline>
+    <date>2690</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita retires, Takiro Kurita named DC Coordinator</headline>
+    <date>2691</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jentarra Calderon removed, Brandon Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>2694</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Davion dies, Roger Davion named FS First Prince</headline>
+    <date>2696</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Principality of Gibson formed</headline>
+    <date>2699</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Aleksandr Kerensky born</headline>
+    <date>2700</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kim Centrella retires, Jehan Centrella named MC Magestrix</headline>
+    <date>2702</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gerald Marik dies, Elise Marik named FWL Captain-General and Council Lord, Purge of FWL begins, Roger Davion dies, Joseph Davion named FS First Prince</headline>
+    <date>2703</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>William Steiner dies, Jonathan Steiner named LC Archon, Jocasta Cameron becomes Mother Jocasta</headline>
+    <date>2704</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Davis Avellar dies, Heather Avellar named OA Regent</headline>
+    <date>2706</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>General Ikolor Fredasa named Commander-in-Chief of SLDF</headline>
+    <date>2707</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Beatrice Avellar named OA Parliamentary President</headline>
+    <date>2709</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Urizen Kurita dies</headline>
+    <date>2710</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Decree of Expulsion issued</headline>
+    <date>2711</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris born</headline>
+    <date>2717</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Androsar Liao dies, Warex Liao named Chancellor of CC</headline>
+    <date>2719</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Council Directive 41 passed</headline>
+    <date>2722</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brandon Calderon retires, Hampton Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>2725</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Hampton Calderon assassinated, Nicoletta Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>2726</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik removed as Captain-General of FWL, FS War of Davion Succession begins</headline>
+    <date>2728</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Parliament dissolved and arrested, FWL Proxy Parliament declares Oliver Marik FWL Council Lord and Boris Marik Captain-General of FWL, FS War of Davion Succession ends, Joseph Davion dies, Richard Davion named FS First Prince, Jonathan Steiner dies, Michael Steiner II named LC Archon, General Rebecca Fetladral named Commander-in-Chief of SLDF</headline>
+    <date>2729</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik captured</headline>
+    <date>2730</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elise Marik liberated, FWL Treaty of Verona signed, FWL Parliament reconvened, Bertram Marik named FWL Captain-General and Council Lord</headline>
+    <date>2734</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Intelligence Act passed, FS Preparedness Act passed, Mother Jocasta becomes de facto First Lord</headline>
+    <date>2735</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Last Martial Olympiad</headline>
+    <date>2736</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jehan Centrella retires, Vanura Centrella named MC Magestrix, Jonathan Cameron dies, Simon Cameron named First Lord of the Star League, Aleksandr Kerensky named Commander-in-Chief of SLDF</headline>
+    <date>2738</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake born on Terra</headline>
+    <date>2739</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Mother Jocasta dies</headline>
+    <date>2742</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Davion dies, John Davion named FS First Prince</headline>
+    <date>2745</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron begins tour of Star League</headline>
+    <date>2750</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Simon Cameron killed, Richard Cameron named First Lord of the Star League, Aleksandr Kerensky named Star League Regent</headline>
+    <date>2751</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amendment to Council Edict of 2650 illegally passed, Laws imposing heavy taxes on Periphery passed</headline>
+    <date>2752</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris meets Richard Cameron</headline>
+    <date>2753</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake graduates from University of Lambrecht, Birthday Proclamations passed</headline>
+    <date>2755</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS invades CC in Border War, Michael Steiner II dies, Robert Steiner II named LC Archon, Vanura Centrella dies, Janina Centrella named MC Magestrix</headline>
+    <date>2760</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Border War ends, Richard Cameron comes of age, Executive Order 156 issued and retracted</headline>
+    <date>2762</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik named Captain-General of FWL, Taxation Edict passed</headline>
+    <date>2763</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Richard Cameron signs secret treaty with RWR</headline>
+    <date>2764</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>18 Periphery worlds secede from Star League, Beatrice Avellar dies, Allyce Avellar named OA Parliamentary President</headline>
+    <date>2765</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stefan Amaris kills all known Camerons, seizes 95 TH worlds, and gains control of 70% of TH HPGs, Takiro Kurita dies, Minoru Kurita named DC Coordinator</headline>
+    <date>2766</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Amaris-Kerensky Civil War begins, RWR invaded, Stefan Amaris declares himself First Lord of the Star League</headline>
+    <date>2767</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>RWR destroyed</headline>
+    <date>2769</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>SLDF TH Campaign begins, Allyce Avellar removed, David Avellar named OA Parliamentary President</headline>
+    <date>2772</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Operation Liberation takes place</headline>
+    <date>2777</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terra liberated, Jerome Blake returns to Terra, Stefan Amaris executed</headline>
+    <date>2779</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake appointed Minister of Communications, Aleksandr Kerensky stripped of title of Protector</headline>
+    <date>2780</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Star League disbanded, Robert Steiner II dies, Jennifer Steiner named LC Archon</headline>
+    <date>2781</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Each Lord of the High Council individually gives Jerome Blake responsibility for the reconstruction of Terra</headline>
+    <date>2782</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Court of the Star League sealed</headline>
+    <date>2783</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Resolution 288 passed, FWL Rule of 75 repealed, 80% of SLDF undertakes Operation Exodus, the remainder pledging assistance to the Terran reconstruction effort, Department of Communications First Circuit reestablished, Prinz Eugen Incident, General Order 137 issued</headline>
+    <date>2784</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Conrad Toyama appointed Chief Administrator of Dieron HPG, ComStar Letter of Credit instituted, FS Towne Debacle</headline>
+    <date>2785</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War begins, Department of Communications changes its name to ComStar, CS Operation Silver Shield approved and begun, DC Minoru Kurita proclaims himself First Lord of the Star League, MC issues Declaration of Independence, Pentagon Worlds settled</headline>
+    <date>2786</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik declares himself First Lord of the Star League, Neutrality of CS outlined by Communications Protocol of 2787, FS War Zone Actions become law</headline>
+    <date>2787</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS Operation Silver Shield amended to include Terra only, All HPGs shut down, Military portion of CS Operation Silver Shield takes place, CS takes Terra</headline>
+    <date>2788</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>New Delos Massacre, CS Mercenary Review Board formed</headline>
+    <date>2789</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS ComStar Archives Branch formed, Jennifer Steiner killed, Richard Steiner named LC Archon</headline>
+    <date>2791</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC reorganizes garrisons</headline>
+    <date>2792</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Barbara Liao dies, Sandol Quinn named Chancellor of CC</headline>
+    <date>2795</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minoru Kurita assassinated, Jinjiro Kurita named DC Coordinator, Kentares IV Massacre</headline>
+    <date>2796</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>John Davion assassinated, Paul Davion named FS First Prince</headline>
+    <date>2797</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First FS offensive against DC, FS Reformation begins, FS Ministry of Information, Intelligence, and Operations formed</headline>
+    <date>2798</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Sandol Quinn resigns, Ilsa Liao named Chancellor of CC, FS Reformation ends, DeChevilier Massacre, Aleksandr Kerensky dies, Nicholas Kerensky leads second Exodus, Exodus Civil Wars begin</headline>
+    <date>2801</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS makes its first true profit</headline>
+    <date>2802</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kenyon Marik dies, Thaddeus Marik named Captain-General of FWL</headline>
+    <date>2804</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ilsa Liao renounces claim to First Lordship, Second FS offensive against DC</headline>
+    <date>2808</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS ROM formed, Third FS offensive against DC</headline>
+    <date>2811</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Estates-General disbanded</headline>
+    <date>2812</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian-Canopian War begins</headline>
+    <date>2813</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taurian-Canopian War ends</headline>
+    <date>2814</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nicholas Kerensky proclaims himself first ilKhan of the Clans</headline>
+    <date>2815</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Capellan Science Foundation founded</headline>
+    <date>2818</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Jerome Blake dies, Conrad Toyama named Prime Administrator of CS, CS ROM purge initiated, CS ComStar Order formed</headline>
+    <date>2819</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Conrad Toyama visits House leaders and raises HPG rates</headline>
+    <date>2820</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First Succession War ends, Thaddeus Marik dies, Charles Marik named Captain- General of FWL, Jeannette Marik joins CS and begins leaking information, LC and FWL sign Peace Accords of Bella I, Clans return to Pentagon Worlds, Exodus Civil Wars end</headline>
+    <date>2821</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC institutes new mercenary payment plan, LC Estates-General reconvened</headline>
+    <date>2822</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC taxes CS and is Interdicted, CS logo created, Richard Steiner dies, Marcus Steiner named LC Archon</headline>
+    <date>2823</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC taxes and CS Interdiction lifted, Conrad Toyama begins recruitment trip in Periphery, Clan Wolverine annihilated</headline>
+    <date>2824</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Minnesota Tribe attacks Svelvik, Jarrett, Richmond, and Trondheim, Thomas Halder-Davion appointed FS Field Marshall</headline>
+    <date>2825</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS ComStar News Bureau formed</headline>
+    <date>2826</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ilsa Liao killed, Laurelli Liao named Chancellor of CC</headline>
+    <date>2828</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Colonel Damien Hasek named FS Duke of New Syrtis</headline>
+    <date>2829</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Second Succession War begins</headline>
+    <date>2830</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Nicholas Kerensky killed, Clan Wolf absorbs Clan Widowmaker</headline>
+    <date>2834</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Oriente HPG destroyed, FWL Interdicted, CS War begins, Conrad Toyama dies and is named a saint, Raymond Karpov named Primus of CS, Jinjiro Kurita retires, Zabu Kurita named Dc Coordinator</headline>
+    <date>2837</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Interdiction lifted, CS War ends, CS Organizational Edict 3056 expands ROM, Michelle Dupreas resigns and is assassinated, Janice Laidlaw appointed Head of CS ROM, CS Operation Holy Shroud begins, Zabu Kurita commits seppuku, Yoguchi Kurita named DC Coordinator, DC ISF attached to Draconis Combine Mustered Soldiery</headline>
+    <date>2838</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Chesterton Decree issued, DC launches first offensive against LC</headline>
+    <date>2840</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Oriente HPG rebuilt, Jinjiro Kurita commits suicide, FS launches major offensive against DC, Roweena Kurita named DC Coordinator of People's Reconstruction Effort</headline>
+    <date>2841</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Parliament votes to resume all military funding, Paul Davion dies, Ignatius Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>2842</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS Operation Holy Shroud ends, Michael Davion named FS First Prince</headline>
+    <date>2843</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marcus Steiner goes into a coma, Melissa Nin named LC Archon</headline>
+    <date>2844</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Marcus Steiner dies, Melissa Nin executed for treason, Claudius Steiner named LC Archon, LC Estates-General disbanded</headline>
+    <date>2845</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Prime Marshall Peter Davion refuses to lead rebellion</headline>
+    <date>2846</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Operation Praying Mantis begins</headline>
+    <date>2848</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Claudius Steiner dies, Elizabeth Steiner named LC Archon-Designate, LC Estates- General reconvened, LC Triumvirate formed</headline>
+    <date>2849</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Yoguchi Kurita assassinated by Snow Fire, Miyogi Kurita named DC Coordinator</headline>
+    <date>2850</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LCS Invincible misjumps</headline>
+    <date>2853</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Charles Marik dies, Gerald Marik named Captain-General of FWL, DC launches second offensive against LC, FS Marathon Offensive begins, Clan Coyote invents the OmniMech</headline>
+    <date>2854</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elizabeth Steiner named LC Archon</headline>
+    <date>2859</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Laurelli Liao dies, Dainmar Liao named Chancellor of CC, TC undergoes Constitutional Crisis of 2860</headline>
+    <date>2860</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gerald Marik dies, Philippa Marik named Captain-General of FWL, CS Doctrinal Edict of 2861 formalizes process of naming Primus, FS St. Ives Raid takes place</headline>
+    <date>2861</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Successor States meet in failed peace talks, Second Succession War ends, DC Shadow War begins</headline>
+    <date>2864</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War begins, Dainmar Liao resigns, Otto Liao named Chancellor of CC, DC Shadow War ends</headline>
+    <date>2866</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL assassination attempt on Elizabeth Steiner fails, Dainmar Liao commits suicide</headline>
+    <date>2867</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clans first use elementals</headline>
+    <date>2868</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Cutthroat Fiasco</headline>
+    <date>2870</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Philippa Marik dies, Marie Marik named Captain-General of FWL, Michael Davion dies, Carl Davion named FS First Prince</headline>
+    <date>2873</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Raymond Karpov steps down, Andrea Marteen named Primus of CS</headline>
+    <date>2875</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Carl Davion killed, Melissa Davion named FS First Prince, Reformation of FS military takes place</headline>
+    <date>2876</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS ROM stages Black December incident</headline>
+    <date>2877</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Marik named Captain-General of FWL, Raymond Karpov dies</headline>
+    <date>2880</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>James Marik dies, CS raises HPG transmission rates</headline>
+    <date>2882</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lloyd Marik-Stanley named Captain-General of FWL, Elisabeth Marik takes control of FWL non-military functions</headline>
+    <date>2883</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Lloyd Marik-Stanley dies</headline>
+    <date>2884</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Sian University founded</headline>
+    <date>2888</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Miyogi Kurita assassinated, Jon Kurita killed, Taragi Kurita named DC Coordinator, Melissa Davion dies, Joseph Davion II named FS First Prince</headline>
+    <date>2892</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Elizabeth Steiner dies, Eric Steiner named LC Archon</headline>
+    <date>2895</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Andrea Marteen dies, Dwight Kurstin named Primus of CS, CS First Circuit revolts and leaves Terra, CS "Witch-Hunt" transmission sent, Terra Interdicted, Court of the Star League unsealed, CS Operation Winged Crusader begins</headline>
+    <date>2901</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Dwight Kurstin assassinated, Gregori Hartford named Primus of CS, CS ComStar Civil War covered up by ROM, Court of the Star League resealed</headline>
+    <date>2902</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS and CC sign Armistice of Van Diemen IV</headline>
+    <date>2905</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Home Defense Act passed</headline>
+    <date>2906</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Taragi Kurita dies, Shinjiro Kurita named DC Coordinator</headline>
+    <date>2907</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Military Services Acts modified</headline>
+    <date>2908</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Gregori Hartford dies, Kari Marshall named Primus of CS</headline>
+    <date>2910</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC Gray Dragons formed</headline>
+    <date>2911</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clan Smoke Jaguar deals with the Londerholm Revolt</headline>
+    <date>2912</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Operation Freedom begins, Eric Steiner killed</headline>
+    <date>2913</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tatyana Steiner named LC Archon</headline>
+    <date>2914</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Marik named Captain-General of FWL, Otto Liao resigns, Merlin Liao named Chancellor of CC</headline>
+    <date>2917</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kari Marshall tours Periphery, CS Periphery Communications Link begun, Johann O'Reilly forms Marian Hegemony</headline>
+    <date>2920</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>DC Davarapala Accords signed</headline>
+    <date>2921</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Shinjiro Kurita dies, Hugai Kurita named DC Coordinator</headline>
+    <date>2925</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Kari Marshall dies, Hollings York named Primus of CS, Necess Kurita joins CS and is kidnapped by Hugai Kurita, CS hires mercenaries and threatens DC, Necess Kurita released</headline>
+    <date>2930</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Davion II abdicates, Peter Davion II named FS First Prince</headline>
+    <date>2931</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS ComStar Guards and Militia formed</headline>
+    <date>2933</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joseph Davion II dies</headline>
+    <date>2935</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tatyana Steiner abdicates, Marco Steiner named LC Archon</headline>
+    <date>2937</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Merlin Liao dies, Tarlak Liao named Chancellor of CC</headline>
+    <date>2942</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Samuel Marik dies, Paul Marik named Captain-General of FWL</headline>
+    <date>2944</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Paul Marik dies, Iris Marik named Captain-General of FWL, Brock Marik named Captain-General of FWL, Hollings York proposes abolishment of CS ROM and is assassinated, Adrienne Sims named Primus of CS, Hollings York named a saint</headline>
+    <date>2947</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Brock Marik dies, Thaddeus Marik II named Captain-General of FWL</headline>
+    <date>2948</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tarlak Liao assassinated, Ingrid Liao named Chancellor of CC</headline>
+    <date>2950</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Great Lee Turkey Shoot, FS Warrior's Cabal formed, Marco Steiner retires, Giovanni Steiner named LC Archon</headline>
+    <date>2952</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Some MC Elector positions become hereditary</headline>
+    <date>2955</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adrienne Sims begins having nightmares about an invasion from beyond the Periphery, CS Explorer Corps formed</headline>
+    <date>2959</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>First CS Explorer Corps ships enter the Periphery, Peter Davion II assassinated, Andrew Davion named FS First Prince</headline>
+    <date>2961</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thaddeus Marik II dies, Stephan Marik named Captain-General of FWL, Hugai Kurita dies, Hohiro Kurita named DC Coordinator</headline>
+    <date>2963</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Decree of Martial Unity issued, Eugenio Rosario killed</headline>
+    <date>2964</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Concord of Danais signed</headline>
+    <date>2966</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Adrienne Sims dies, Yin Takami named Primus of CS, CS Tripitz affair takes place, CS Operation Holy Shroud II begins</headline>
+    <date>2979</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ingrid Liao dies, Tormax Liao named Chancellor of CC, Giovanni Steiner dies, Alessandro Steiner named LC Archon</headline>
+    <date>2980</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clan Sea Fox becomes Clan Diamond Shark</headline>
+    <date>2985</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Deep Raid of 2987</headline>
+    <date>2987</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Death Commandos formed, CS First Circuit reorganized to include Tharkad, Atreus, Sian, and New Avalon</headline>
+    <date>2988</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Special Resolution 512 passed, DC Strike of 2989</headline>
+    <date>2989</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tormax Liao deposed, Maximilian Liao named Chancellor of CC</headline>
+    <date>2990</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Stephan Marik dies, Janos Marik named Captain-General of FWL</headline>
+    <date>2991</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Yin Takami dies, Allen Rusenstein named Primus of CS</headline>
+    <date>2994</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Accountability Edict issued, FWL Logistics Act passed</headline>
+    <date>2996</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Andrew Davion dies, Ian Davion named FS First Prince</headline>
+    <date>2999</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS begins extensive recruitment in the Periphery, Takashi Kurita named Commander of the DC Otomo</headline>
+    <date>3000</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS begins supplying Bandit Kings</headline>
+    <date>3001</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>LC Operation Concentrated Weakness begins</headline>
+    <date>3002</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Michael Hasek marries Marie Davion-St. Claire</headline>
+    <date>3003</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS Jolly Roger Affair takes place, Hohiro Kurita assassinated, Takashi Kurita named DC Coordinator, Wolf's Dragoons leave for the Inner Sphere</headline>
+    <date>3004</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC Ministry of Development reorganized, Wolf's Dragoons appear in FS</headline>
+    <date>3005</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik joins CS, Allen Rusenstein resigns, Julian Tiepolo named Primus of CS</headline>
+    <date>3006</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Alessandro Steiner is forced to retire, Katrina Steiner named LC Archon</headline>
+    <date>3007</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Wolf's Dragoons return to Clan Wolf for refitting, Marius O'Reilly named MH Imperator</headline>
+    <date>3009</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS instigates Marik Civil War</headline>
+    <date>3010</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Tamara Centrella dies, Kyalla Centrella named MC Magestrix</headline>
+    <date>3012</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Davion killed, Hanse Davion named FS First Prince, Michael Hasek-Davion named FS Duke of New Syrtis</headline>
+    <date>3013</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik begins Marik Civil War</headline>
+    <date>3014</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anton Marik kills Joshua Wolf and is killed by Wolf's Dragoons, CS Precentor ROM Vesar Kristofur excommunicated, FS New Avalon Institute of Science created, Neil Avellar II named OA Parliamentary President</headline>
+    <date>3015</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Calderon named TC Protector of the Taurian Homeworlds</headline>
+    <date>3017</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Wolf's Dragoons return to Clan Wolf again for refitting, Theodore Kurita and Tomoe Sakade marry</headline>
+    <date>3019</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CC makes contact with Michael Hasek-Davion, Katrina Steiner sends Peace Proposal to all Houses, OA Educational Exchange Program begins</headline>
+    <date>3020</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Concord of Kapteyn signed, McCarron's War begins, Federated-Commonwealth Alliance Document signed</headline>
+    <date>3022</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Third Succession War ends, McCarron's War ends, CC Operation Doppelganger takes place</headline>
+    <date>3025</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Operation Galahad 3026 takes place</headline>
+    <date>3026</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FS Operation Galahad 3027 takes place, LC Operation Thor 3027 takes place</headline>
+    <date>3027</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War begins, Tormana Liao captured by FS, FS Northwind Agreement takes effect, CC Operation Riposte takes place, Gray Death Legion discovers Helm Library Core, Wolf's Dragoons take An Ting HPG, Hanse Davion and Melissa Steiner marry, Wolf's Dragoons leave DC, Federated Commonwealth unofficially formed, Maria Morgraine and Redjack Ryan marry, Greater Valkyrate formed</headline>
+    <date>3028</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>St. Ives Compact formed, Tikonov Free Republic formed, CC Operation Intruders Communion takes place, FS framed for destruction of Sarna HPG and Interdicted, CS covertly attacks NAIS, Julian Tiepolo dies, Myndo Waterly named Primus of CS, CS 'Mechs stationed at FS HPGs, FS Interdiction lifted, DC and Wolf's Dragoons battle on Crossing, Michael Hasek-Davion killed</headline>
+    <date>3029</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Fourth Succession War ends, Duchy of Andurien secedes from FWL, FWL Internal Emergency Act passed, CS Operation Rosebud initiated, Theodore Kurita named DC Gunji no Kanrei, FS Sarna March created, Andurien/MC invasion of CC begins, CS gives Star League Battlemechs to DC</headline>
+    <date>3030</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik leaves CS, CC attacked by Andurien/Canopus alliance, FS absorbs Tikonov Free Republic</headline>
+    <date>3031</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Circinus Federation President C. J. McIntyre dies, H. R. McIntyre named Circinus Federation President, Black Warriors commander Adam Cirion dies, H. R. McIntyre named commander of Black Warriors</headline>
+    <date>3032</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Free Rasalhague Republic formed, CS Operation Rosebud ends, Anastasius Focht joins CS, CS Operation Flush begins, DC Ronin War takes place, FS and LC undergo Skye Crisis, Neil Avellar II marries Rebecca DeSanders, Edward Calderon dies, Janice Calderon tours TC, Circinus Federation begins invasion of Illyrian Palatinate</headline>
+    <date>3034</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Bomb kills Janos and Duggan Marik and wounds Thomas Marik, Duncan Marik named Captain-General of FWL, CS Readjustment Act of 3035 passed, Mitchell Avellar born, MH invades Astrokaszy</headline>
+    <date>3035</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik named Captain-General of FWL, Maximilian Liao dies, Romano Liao named Chancellor of CC</headline>
+    <date>3036</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL Addendum to the Incorporation passed, Andurien regained by FWL, TC Ministry of Trade andColonization arrested, Camillo Avellar born, Galahad Frews named Grand Knight of the Brotherhood of Randis</headline>
+    <date>3037</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS 'Mechs stationed at CC HPGs, Janice Calderon contracts Brisbane Virus, Patrice Avellar born</headline>
+    <date>3038</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 begins, Katrina Steiner abdicates, Melissa Steiner-Davion named LC Archon</headline>
+    <date>3039</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>War of 3039 ends, Katrina Steiner dies, Kyalla Centrella removed, Emma Centrella named MC Magestrix</headline>
+    <date>3040</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS 'Mechs stationed at LC HPGs, Armed Forces of the Federated Commonwealth created</headline>
+    <date>3041</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ian Calderon joins Green Mountain Boys, Circinus Civil War begins, Paula Trevaline killed</headline>
+    <date>3042</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>FWL League General Accounting Office created</headline>
+    <date>3043</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS Operation Flush ends</headline>
+    <date>3044</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Felix Calderon's Jumpship disappears</headline>
+    <date>3046</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Marik born, TC forces destroy misjumped FC JumpShip, TC begins military buildup</headline>
+    <date>3047</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>CS Explorer Corps vessel Outbound Light encounters Clan Smoke Jaguar, Bidding for the right to invade takes place, Marius O'Reilly dies, Sean O'Reilly named MH Imperator, Sean O'Reilly's title changed to Caesar, MH military buildup begins, James Moroney forms Rim Collection</headline>
+    <date>3048</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Clan Operation Revival takes place, CS makes contact with the Clans</headline>
+    <date>3049</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Anastasius Focht appointed CS ambassador to the Clans, Clans invade Inner Sphere, Leo Showers killed, Battle for Wolcott, CS begins aiding the Clans, FC retakes Twycross, Turtle Bay Massacre, Invasion halted</headline>
+    <date>3050</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Ulric Kerensky voted Clan ilKhan, Natasha Kerensky named Khan of Clan Wolf, Reserve Clans brought in, Invasion resumes, Camelot Command taken by Clan Snord, MC makes overtures to Periphery states about Periphery-wide alliance</headline>
+    <date>3051</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Battle for Luthien, Battle of Tukayyid, Demona Aziz rebels and forms WB,Thomas Marik named Primus-in-Exile of Word of Blake, FWL signs HPG service contract with WB, Romano Liao assassinated, Sun-Tzu Liao named Chancellor of CC, Sun-Tzu Liao betrothed to Isis Marik, CS Operation Scorpion takes place, Myndo Waterly assassinated, Sharilar Mori named Primus of CS, All Houses but Marik sign new service contracts with CS, Hanse Davion dies, Phelan Ward named saKhan of Clan Wolf, Clan Ghost Bear suspends individual engagement rules, New Belt Pirates formed</headline>
+    <date>3052</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Terran Peace Summit takes place, CS begins announcing troop movements, Mercenary Review and Bonding Commission replaces CS Mercenary Review Board, CS University of Blake begins construction, Jeffrey Calderon and Emma Centrella begin secret negotiations</headline>
+    <date>3053</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Takashi Kurita commits seppuku, Theodore Kurita named DC Coordinator, MH invades Lothian League, Fuchida's Fusiliers take control of Tortuga Dominions</headline>
+    <date>3054</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Melissa Steiner-Davion assassinated, Thomas Calderon removed, Jeffrey Calderon named TC Protector of the Taurian Homeworlds, TC military buildup ends, MH conquers Lothian League</headline>
+    <date>3055</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Federated Commonwealth officially formed, Ryan Steiner assassinated, Archon- Prince Victor Steiner-Davion takes command of FC, Thomas Calderon dies, TC and MC sign Treaty of Taurus, Diplomatic channels between CC and MC reopen, Neil Avellar resigns, Mitchell Avellar named OA Parliamentary President, OA Long Road Program begins</headline>
+    <date>3056</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Joshua Marik dies and is replaced with a double by FC, FWL and CC invade FC, Lyran Alliance formed, Isis Marik moves to Sian, Katrina Steiner named Archon of Lyran Alliance, Ulric Kerensky stripped of title of IlKhan, Refusal War, CS opens vaults of history to everyone</headline>
+    <date>3057</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+  <newsItem>
+    <headline>Thomas Marik discovered to be a double, DC forces installed as peacekeepers in Chaos March, Clan Wolf becomes both Clan Jade Wolf and Clan Wolf-in-Exile, Word of Blake takes Terra, Elias Crichell named IlKhan and slain, Marthe Pryde named saKhan and later Khan of Clan Jade Falcon, Vlad Ward named Khan of Clan Jade Wolf and later Clan Wolf, Clan Jade Wolf becomes Clan Wolf, Invasion of Coventry, Black Dragon Society and others attempt to assassinate Theodore Kurita.</headline>
+    <date>3058</date>
+    <desc></desc>
+    <service>OOT</service>
+    <location></location>
+  </newsItem>
+</news>
