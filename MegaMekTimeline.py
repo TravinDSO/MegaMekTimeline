@@ -173,12 +173,24 @@ location - an optional tag for the location of the news report\n\
         # For each file in ./sarna_timelines run the function create_news_item_file
         for file in os.listdir('./sarna_timelines'):
             if file.endswith('.txt'):
-                self.create_news_item_file(f'{sarna_dir}/{file}', file)
+                try:
+                    self.create_news_item_file(f'{sarna_dir}/{file}', file)
+                    print(f"Processed {file}")
+                except Exception as e:
+                    print(f"Error processing {file}: {e}")
 
         file_paths = [f'{megamek_dir}/{file}' for file in os.listdir(megamek_dir) if file.endswith('.xml')]
-        master_xml_str = self.combine_timelines(file_paths)
+        try:
+            master_xml_str = self.combine_timelines(file_paths)
+            print("Combined timelines successfully")
+        except Exception as e:
+            print(f"Error combining timelines: {e}")
 
         # Write the combined XML string to a new file and show a preview of the content
         master_file_path_with_format = 'news.xml'
-        with open(master_file_path_with_format, 'w') as file:
-            file.write(master_xml_str)
+        try:
+            with open(master_file_path_with_format, 'w') as file:
+                file.write(master_xml_str)
+            print(f"Combined timelines written to {master_file_path_with_format}")
+        except Exception as e:
+            print(f"Error writing combined timelines: {e}")
