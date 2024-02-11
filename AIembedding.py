@@ -1,12 +1,7 @@
 import os
 import gc
 import gzip
-import json
-import math
-import time
-import tkinter as tk
 import xml.etree.ElementTree as ET
-from datetime import datetime
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from langchain_openai import OpenAIEmbeddings
@@ -14,8 +9,8 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_openai.chat_models import ChatOpenAI
-from langchain_community.document_loaders import SeleniumURLLoader, CSVLoader, NotionDBLoader
-from langchain_community.callbacks import get_openai_callback
+from langchain_community.document_loaders import CSVLoader
+
 
 # Text splitter for splitting the text into chunks
 class CustomTextSplitter(CharacterTextSplitter):
@@ -33,7 +28,6 @@ class CustomTextSplitter(CharacterTextSplitter):
 # Class to handle the creation of VectorDB and AI Embeddings
 class AIembedding:
     def __init__(self):
-        pass
 
         # Debug environment variables
         load_dotenv('personal_environment.env', override=True)
@@ -41,8 +35,8 @@ class AIembedding:
         # Load the environment variables
         #load_dotenv('environment.env', override=True)
 
-        self.max_tokens = 100
-        self.query_temp = 0.7
+        self.max_tokens = 2500
+        self.query_temp = 0.0
         self.data_folder = './docs/'
 
         # Load the OPENAI environment variables from the .env file depending on use_azure

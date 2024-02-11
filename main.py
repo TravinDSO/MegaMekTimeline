@@ -3,6 +3,7 @@ import os
 import platform
 from MegaMekTimeline import MegaMekTimeline
 from AIembedding import AIembedding
+from gpt_query import GPTQuery
 
 # Define getch() based on the operating system
 try:
@@ -48,19 +49,39 @@ timeline = MegaMekTimeline()
 # Create AIembedding instance
 ai = AIembedding()
 
+# Create GPTQuery instance
+gpt = GPTQuery()
+
 # Create a command prompt for the user to select which process to run
 def main():
     running = True
     clear_screen()
     while running:
-        if ai.enabled:
+        if gpt.enabled:
+            print("What would you like to do?\n(1) Combine XML files\n(2) Index Documents\n(3) Ask a question\n(4) Exit program\n")
+        elif ai.enabled:
             print("What would you like to do?\n(1) Combine XML files\n(2) Index Documents\n(3) Exit program\n")
         else:
             print("What would you like to do?\n(1) Combine XML files\n(2) Exit program\n")
 
         choice = getch().upper()
-
-        if ai.enabled:
+        if gpt.enabled:
+            if choice == '1':
+                timeline.run()
+                wait_for_space_bar()
+                clear_screen()
+            elif choice == '2':
+                ai.run()
+                wait_for_space_bar()
+                clear_screen()
+            elif choice == '3':
+                answer = gpt.query()
+                print(answer)
+                wait_for_space_bar()
+                clear_screen()
+            elif choice == '4':
+                running = False
+        elif ai.enabled:
             if choice == '1':
                 timeline.run()
                 wait_for_space_bar()
