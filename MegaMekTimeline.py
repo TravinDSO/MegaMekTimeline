@@ -139,18 +139,15 @@ location - an optional tag for the location of the news report\n\
                 date_text = child.find('date').text if child.find('date') is not None else '0001'  # Use a default very old date
                 date_obj = self.parse_date(date_text)
                 news_items.append((date_obj, child))
-                desc_element = child.find('desc')
-                if desc_element.text is not None:
-                    new_desc = etree.Element("desc")
-                    new_desc.text = etree.CDATA(desc_element.text)
-                    child.replace(desc_element, new_desc)
+                desc_text = child.find('desc').text if child.find('desc') is not None else ''
+                if desc_text:
+                    child.find('desc').text = etree.CDATA(desc_text)
 
         # Sort news items by their parsed date
         news_items.sort(key=lambda x: x[0])
 
         # Append sorted news items to master_root
         for _, item in news_items:
-            #master_root.append(etree.fromstring(etree.tostring(item)))
             master_root.append(item)
         
         # Append the following comment to the XML content
@@ -165,6 +162,10 @@ location - an optional tag for the location of the news report\n\
 
         # Convert the master_root Element back to a string, prepend the declaration and comments, and ensure pretty printing
         master_xml_str = xml_comments + etree.tostring(master_root, pretty_print=True, xml_declaration=False, encoding='UTF-8').decode()
+
+        # Replace the search string with the replace string
+        master_xml_str = master_xml_str.replace("<news><newsItem>", "<news>\n<newsItem>")
+        master_xml_str = re.sub(r"^(<newsItem>)", "  <newsItem>", master_xml_str, flags=re.MULTILINE)
 
         return master_xml_str
 
@@ -194,3 +195,7 @@ location - an optional tag for the location of the news report\n\
             print(f"Combined timelines written to {master_file_path_with_format}")
         except Exception as e:
             print(f"Error writing combined timelines: {e}")
+
+#debug run
+timeline = MegaMekTimeline()
+timeline.run()

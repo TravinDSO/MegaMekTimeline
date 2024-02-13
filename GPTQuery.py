@@ -59,6 +59,11 @@ class GPTQuery:
         num_docs = num_docs - 5 # subtract 5 to be safe
         return num_docs
 
+    def save_docs(self,docs):
+        with open('docs.txt', 'w') as f:
+            for doc in docs:
+                f.write("%s\n" % doc)
+
     def query(self):
 
         query = input("What is your question? ")
@@ -71,6 +76,7 @@ class GPTQuery:
         with get_openai_callback() as cb:
             try:
                 answer = self.doc_chain.run(input_documents=docs, question=query)
+                self.save_docs(docs) #Save docs to file for debugging
                 return answer
             except Exception as e:
                 if "maximum context length" in str(e):
@@ -83,6 +89,7 @@ class GPTQuery:
                         num_tokens = int(str(e).split("you requested ")[1].split(" tokens")[0])
                         number_of_docs = self.calculate_num_docs(num_tokens, max_context_length)
                         docs = self.docsearch.similarity_search(query, k=number_of_docs)
+                        self.save_docs(docs) #Save docs to file for debugging
                         answer = self.doc_chain.run(input_documents=docs, question=query)
                         return answer
                     except:
@@ -92,6 +99,7 @@ class GPTQuery:
                             adjusted_number_of_docs = float(self.total_docs_var.get()) * 0.5
                             number_of_docs = (int(adjusted_number_of_docs))           
                             docs = self.docsearch.similarity_search(query, k=number_of_docs)
+                            self.save_docs(docs) #Save docs to file for debugging
                             answer = self.doc_chain.run(input_documents=docs, question=query)
                             return answer
                         except:
@@ -100,6 +108,7 @@ class GPTQuery:
                                 time.sleep(5)
                                 number_of_docs = 5
                                 docs = self.docsearch.similarity_search(query, k=number_of_docs)
+                                self.save_docs(docs) #Save docs to file for debugging
                                 answer = self.doc_chain.run(input_documents=docs, question=query)
                                 return answer
                             except:

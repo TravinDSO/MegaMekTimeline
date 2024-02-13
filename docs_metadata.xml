@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+  <type='xml'>
+    <fileItem>
+      <name>eras.xml</name>
+      <purpose>Eras within the Battletech universe</date>
+    </fileItem>
+    <fileItem>
+      <name>news.xml</name>
+      <purpose>News from certain dates in Battletech universe</date>
+    </fileItem>
+  </type>
+  <type='csv'>
+    <fileItem>
+      <name>BT_Timelines.csv</name>
+      <purpose>A timeline of events within the BattleTech universe</date>
+    </fileItem>
+</file>

@@ -3,7 +3,7 @@ import os
 import platform
 from MegaMekTimeline import MegaMekTimeline
 from AIembedding import AIembedding
-from gpt_query import GPTQuery
+from GPTQuery import GPTQuery
 
 # Define getch() based on the operating system
 try:

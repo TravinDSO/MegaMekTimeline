@@ -38,6 +38,9 @@ class AIembedding:
         self.max_tokens = 2500
         self.query_temp = 0.0
         self.data_folder = './docs/'
+        self.doc_metadata_file = 'docs_metadata.xml'
+        # Structure to hold file metadata
+        self.file_info = {}
 
         # Load the OPENAI environment variables from the .env file depending on use_azure
         self.use_azure = os.getenv("USE_AZURE").lower()
@@ -66,6 +69,24 @@ class AIembedding:
             self.enabled = True
         else:
             self.enabled = False
+
+    def load_doc_metadata(self):
+        # Check if the XML file exists
+        if not os.path.exists(self.doc_metadata_file):
+            print("XML file not found. Metadata will not be useed.")
+            return
+
+        tree = ET.parse(self.doc_metadata_file)
+        root = tree.getroot()
+
+        for file_type in root.findall('type'):
+            type_name = file_type.attrib['type']
+            self.file_info[type_name] = []
+            
+            for item in file_type.findall('fileItem'):
+                name = item.find('name').text
+                purpose = item.find('purpose').text
+                self.file_info[type_name].append({'name': name, 'purpose': purpose})
 
     def run(self):
         
@@ -126,7 +147,8 @@ class AIembedding:
                                 if event == 'end':
                                     # Write the text content of the current element to the gz file
                                     if elem.text:
-                                        f.write(elem.text)
+                                        #f.write(elem.text)
+                                        f.write(ET.tostring(elem, encoding='unicode'))
                                     # Clean up the processed element to save memory
                                     elem.clear()
                             print(f"Processed XML {xml_path}")
